@@ -1,0 +1,107 @@
+/*----------------------------------------------
+*
+* [Main Stylesheet]
+*
+* Theme    : Nexgen
+* Version  : 1.0
+* Author   : Codings
+* Support  : codings.dev
+* 
+----------------------------------------------*/
+
+/*----------------------------------------------
+
+[ALL CONTENTS]
+
+1. General
+2. Admin Menu
+
+----------------------------------------------*/
+
+/*----------------------------------------------
+1. General
+----------------------------------------------*/
+
+/* #region General */
+
+.nxg-box {
+	margin: 20px 0;
+	background: #FFFFFF;
+	border: 1px solid #ccd0d4;
+	position: relative;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+.nxg-box .title {
+	border-bottom: 1px solid #ccd0d4;
+	margin: 0;
+	padding: 15px;
+}
+
+.nxg-box .title h3 {
+	font-size: 14px;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+.nxg-box p {
+	margin: 15px 0;
+}
+
+.nxg-box .inner {
+	padding: 15px;
+}
+
+.nxg-form .invalid {
+	border-color: #e35b5b;
+	color: #e35b5b;
+}
+
+.nxg-form .valid {
+	border-color: #83c373;
+	color: #83c373;
+}
+
+.nexg-button-container {
+	margin: 30px 0;
+}
+
+.nxg-button.button.button-secondary {
+	margin-left: 10px;
+}
+
+.nxg-badge {
+	width: 25px;
+	display: inline-block;
+	background: #e0e0e8;
+	margin: 0 5px 0;
+	padding: 5px 10px 7px 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+/* #endregion General */
+
+/*----------------------------------------------
+2. Admin Menu
+----------------------------------------------*/
+
+/* #region Admin Menu */
+
+.toplevel_page_nexgen-theme-settings-global-style:not(body) .wp-menu-image.dashicons-before:before,
+.toplevel_page_nexgen-release-notes:not(body) .wp-menu-image.dashicons-before:before,
+.toplevel_page_nexgen-import-demo-data:not(body) .wp-menu-image.dashicons-before:before {
+	content: 'N.';
+	width: 100%;
+	height: 100%;
+	padding: 0 0 0 0.5px;
+	border-radius: 0 100px 100px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 35px;
+	letter-spacing: 0;
+}
+
+/* #endregion Admin Menu */

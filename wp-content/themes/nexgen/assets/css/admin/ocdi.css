@@ -1,0 +1,111 @@
+/*----------------------------------------------
+*
+* [OCDI Stylesheet]
+*
+* Theme    : Nexgen
+* Version  : 1.0
+* Author   : Codings
+* Support  : codings.dev
+* 
+----------------------------------------------*/
+
+/*----------------------------------------------
+
+[ALL CONTENTS]
+
+1. General
+
+----------------------------------------------*/
+
+/*----------------------------------------------
+1. General
+----------------------------------------------*/
+
+/* #region General */
+
+.ocdi__intro-text p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #777777;
+}
+
+.ocdi__content-container-content .ocdi-install-plugins-content-header h2, .ocdi__content-container-content .ocdi-create-content-header h2 {
+  margin: 0 0 1rem;
+  font-size: 22px;
+  line-height: 1;
+  color: #444444;
+  font-weight: 500;
+}
+
+.ocdi__content-container-content .ocdi-install-plugins-content-header p, .ocdi__content-container-content .ocdi-create-content-header p {
+  margin: 0 0 1rem;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #777777;
+}
+
+.ocdi__content-container-content .ocdi-install-plugins-content-content .plugin-item h3, .ocdi__content-container-content .ocdi-install-plugins-content-content .content-item h3, .ocdi__content-container-content .ocdi-create-content-content .plugin-item h3, .ocdi__content-container-content .ocdi-create-content-content .content-item h3 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #444444;
+  font-weight: 500;
+  margin: 0;
+}
+
+.ocdi__content-container-content .ocdi-install-plugins-content-content .plugin-item p, .ocdi__content-container-content .ocdi-install-plugins-content-content .content-item p, .ocdi__content-container-content .ocdi-create-content-content .plugin-item p, .ocdi__content-container-content .ocdi-create-content-content .content-item p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #777777;
+  margin: 0;
+}
+
+.ocdi-content-notice p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #777777;
+}
+
+.ocdi-importing-header h2, .ocdi-imported-header h2 {
+  margin: 0 0 1rem;
+  font-size: 22px;
+  line-height: 1;
+  color: #444444;
+  font-weight: 500;
+}
+
+.ocdi-importing p, .ocdi-imported p {
+  margin: 0 0 1rem;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #777777;
+}
+
+.ocdi-importing-content-imported, .ocdi-imported-content-imported {
+  margin: 50px 0;
+}
+
+.ocdi-content-notice--warning {
+  display: none !important;
+  margin-top: 10px;
+ background: #e34f4f;
+}
+
+.ocdi-content-notice--warning p {
+ color: #ddd;
+}
+
+.ocdi-content-notice--warning a {
+ font-weight: 600;
+ color: #fff;
+}
+
+.plugin-item.plugin-item-wpforms-lite,
+.plugin-item-all-in-one-seo-pack,
+.plugin-item-google-analytics-for-wordpress {
+  display: none !important;
+}
+
+/* #region General */

@@ -1,0 +1,4756 @@
+{
+    "key": "group_5fb81a8ed3380",
+    "title": "Blog",
+    "fields": [
+        {
+            "key": "field_5fb81a8ee9f92",
+            "label": "Hero Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5fb81a8eea3b5",
+            "label": "Section",
+            "name": "nxg_blog_hero_section",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5fbeb0cb856a3",
+                    "label": "Display",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fbeb11d856a4",
+                    "label": "Disable",
+                    "name": "disable",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5fbc4fed2b190",
+                    "label": "Layout",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fb81a8f12874",
+                    "label": "Min Height",
+                    "name": "min_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 50,
+                    "min": 25,
+                    "max": 100,
+                    "step": 1,
+                    "prepend": "",
+                    "append": "%"
+                },
+                {
+                    "key": "field_5fbc4f262b18d",
+                    "label": "Design",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fb81a8f0123e",
+                    "label": "Opacity Control",
+                    "name": "opacity_control",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 70,
+                    "min": 0,
+                    "max": 100,
+                    "step": 10,
+                    "prepend": "",
+                    "append": "%"
+                },
+                {
+                    "key": "field_5fbc4f5b2b18e",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fb81a8f18e45",
+                    "label": "Background Color",
+                    "name": "background_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                }
+            ]
+        },
+        {
+            "key": "field_602ac27394d61",
+            "label": "Divider",
+            "name": "nxg_blog_hero_divider",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_602ac27394d62",
+                    "label": "Display",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_602ac27394d63",
+                    "label": "Disable",
+                    "name": "disable",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_602ac27394d69",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_602ac27394d6b",
+                    "label": "Color",
+                    "name": "divider_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ff26c1b26904",
+            "label": "Heading",
+            "name": "nxg_blog_hero_h1",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ff26c1b26905",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff26c1b26906",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff26c1b26907",
+                    "label": "Typography",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff26c1b26908",
+                    "label": "Desktop",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff26c1b26909",
+                    "label": "Font Type",
+                    "name": "font_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "google": "Google Font",
+                        "custom": "Custom Font"
+                    },
+                    "default_value": "google",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff26c1b2690a",
+                    "label": "Font Family",
+                    "name": "font_family",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff26c1b26909",
+                                "operator": "==",
+                                "value": "google"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Roboto": "Roboto",
+                        "Open Sans": "Open Sans",
+                        "Noto Sans JP": "Noto Sans JP",
+                        "Lato": "Lato",
+                        "Montserrat": "Montserrat",
+                        "Roboto Condensed": "Roboto Condensed",
+                        "Source Sans Pro": "Source Sans Pro",
+                        "Oswald": "Oswald",
+                        "Raleway": "Raleway",
+                        "Poppins": "Poppins",
+                        "Noto Sans": "Noto Sans",
+                        "Ubuntu": "Ubuntu",
+                        "PT Sans": "PT Sans",
+                        "Open Sans Condensed": "Open Sans Condensed",
+                        "Muli": "Muli",
+                        "Nunito": "Nunito",
+                        "Mukta": "Mukta",
+                        "Fira Sans": "Fira Sans",
+                        "Rubik": "Rubik",
+                        "Work Sans": "Work Sans",
+                        "Noto Sans KR": "Noto Sans KR",
+                        "Titillium Web": "Titillium Web",
+                        "Noto Sans TC": "Noto Sans TC",
+                        "Nanum Gothic": "Nanum Gothic",
+                        "Nunito Sans": "Nunito Sans",
+                        "Quicksand": "Quicksand",
+                        "Arimo": "Arimo",
+                        "PT Sans Narrow": "PT Sans Narrow",
+                        "Heebo": "Heebo",
+                        "Hind Siliguri": "Hind Siliguri",
+                        "Oxygen": "Oxygen",
+                        "Dosis": "Dosis",
+                        "Barlow": "Barlow",
+                        "Anton": "Anton",
+                        "Karla": "Karla",
+                        "Josefin Sans": "Josefin Sans",
+                        "Cabin": "Cabin",
+                        "Hind": "Hind",
+                        "Libre Franklin": "Libre Franklin",
+                        "Fjalla One": "Fjalla One",
+                        "Yanone Kaffeesatz": "Yanone Kaffeesatz",
+                        "Noto Sans SC": "Noto Sans SC",
+                        "Abel": "Abel",
+                        "Teko": "Teko",
+                        "Varela Round": "Varela Round",
+                        "Overpass": "Overpass",
+                        "Exo 2": "Exo 2",
+                        "Cairo": "Cairo",
+                        "Merriweather Sans": "Merriweather Sans",
+                        "IBM Plex Sans": "IBM Plex Sans",
+                        "Catamaran": "Catamaran",
+                        "Archivo Narrow": "Archivo Narrow",
+                        "Kanit": "Kanit",
+                        "Asap": "Asap",
+                        "Prompt": "Prompt",
+                        "Barlow Condensed": "Barlow Condensed",
+                        "Hind Madurai": "Hind Madurai",
+                        "Acme": "Acme",
+                        "Questrial": "Questrial",
+                        "Play": "Play",
+                        "Maven Pro": "Maven Pro",
+                        "Exo": "Exo",
+                        "Rajdhani": "Rajdhani",
+                        "PT Sans Caption": "PT Sans Caption",
+                        "Noto Sans HK": "Noto Sans HK",
+                        "Signika": "Signika",
+                        "Assistant": "Assistant",
+                        "Fira Sans Condensed": "Fira Sans Condensed",
+                        "ABeeZee": "ABeeZee",
+                        "Ubuntu Condensed": "Ubuntu Condensed",
+                        "Tajawal": "Tajawal",
+                        "Alegreya Sans": "Alegreya Sans",
+                        "Francois One": "Francois One",
+                        "Archivo": "Archivo",
+                        "Barlow Semi Condensed": "Barlow Semi Condensed",
+                        "Monda": "Monda",
+                        "Archivo Black": "Archivo Black",
+                        "DM Sans": "DM Sans",
+                        "Cuprum": "Cuprum",
+                        "Cantarell": "Cantarell",
+                        "Pathway Gothic One": "Pathway Gothic One",
+                        "Inter": "Inter",
+                        "Electrolize": "Electrolize",
+                        "Yantramanav": "Yantramanav",
+                        "News Cycle": "News Cycle",
+                        "Quattrocento Sans": "Quattrocento Sans",
+                        "Didact Gothic": "Didact Gothic",
+                        "Orbitron": "Orbitron",
+                        "Hind Vadodara": "Hind Vadodara",
+                        "Ropa Sans": "Ropa Sans",
+                        "Asap Condensed": "Asap Condensed",
+                        "Chivo": "Chivo",
+                        "Istok Web": "Istok Web",
+                        "Changa": "Changa",
+                        "M PLUS 1p": "M PLUS 1p",
+                        "Fira Sans Extra Condensed": "Fira Sans Extra Condensed",
+                        "Sarabun": "Sarabun",
+                        "Hind Guntur": "Hind Guntur",
+                        "Advent Pro": "Advent Pro"
+                    },
+                    "default_value": "Poppins",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff26c1b2690b",
+                    "label": "Custom Font",
+                    "name": "custom_font",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff26c1b26909",
+                                "operator": "==",
+                                "value": "custom"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "woff, woff2"
+                },
+                {
+                    "key": "field_5ff26c1b2690c",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "normal": "Normal",
+                        "italic": "Italic",
+                        "oblique": "Oblique"
+                    },
+                    "default_value": "default",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff26c1b2690d",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "4.5",
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff26c1b2690e",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 900,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff26c1b2690f",
+                    "label": "Line Height",
+                    "name": "line_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.2",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff26c1b26910",
+                    "label": "Mobile",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff26c1b26911",
+                    "label": "Font Size",
+                    "name": "font_size_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 3,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff26c1c26912",
+                    "label": "Font Weight",
+                    "name": "font_weight_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 900,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff26c1c26913",
+                    "label": "Line Height",
+                    "name": "line_height_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.2",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_602c2b94a96fd",
+            "label": "Breadcrumb",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_602c2bcaa96fe",
+            "label": "Block",
+            "name": "nxg_blog_breadcrumb_block",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_602c2bcaa96ff",
+                    "label": "Display",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_602c2bcaa9700",
+                    "label": "Disable",
+                    "name": "disable",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ff26c019a9f3",
+            "label": "Link",
+            "name": "nxg_blog_breadcrumb_link",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ff26c019a9f6",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff26c019a9f7",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff26c019a9f8",
+                    "label": "Text Hover Color",
+                    "name": "text_hover_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff26c019a9f9",
+                    "label": "Typography",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff26c019a9fa",
+                    "label": "Desktop",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff26c019a9fb",
+                    "label": "Font Type",
+                    "name": "font_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "google": "Google Font",
+                        "custom": "Custom Font"
+                    },
+                    "default_value": "google",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff26c019a9fc",
+                    "label": "Font Family",
+                    "name": "font_family",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff26c019a9fb",
+                                "operator": "==",
+                                "value": "google"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Roboto": "Roboto",
+                        "Open Sans": "Open Sans",
+                        "Noto Sans JP": "Noto Sans JP",
+                        "Lato": "Lato",
+                        "Montserrat": "Montserrat",
+                        "Roboto Condensed": "Roboto Condensed",
+                        "Source Sans Pro": "Source Sans Pro",
+                        "Oswald": "Oswald",
+                        "Raleway": "Raleway",
+                        "Poppins": "Poppins",
+                        "Noto Sans": "Noto Sans",
+                        "Ubuntu": "Ubuntu",
+                        "PT Sans": "PT Sans",
+                        "Open Sans Condensed": "Open Sans Condensed",
+                        "Muli": "Muli",
+                        "Nunito": "Nunito",
+                        "Mukta": "Mukta",
+                        "Fira Sans": "Fira Sans",
+                        "Rubik": "Rubik",
+                        "Work Sans": "Work Sans",
+                        "Noto Sans KR": "Noto Sans KR",
+                        "Titillium Web": "Titillium Web",
+                        "Noto Sans TC": "Noto Sans TC",
+                        "Nanum Gothic": "Nanum Gothic",
+                        "Nunito Sans": "Nunito Sans",
+                        "Quicksand": "Quicksand",
+                        "Arimo": "Arimo",
+                        "PT Sans Narrow": "PT Sans Narrow",
+                        "Heebo": "Heebo",
+                        "Hind Siliguri": "Hind Siliguri",
+                        "Oxygen": "Oxygen",
+                        "Dosis": "Dosis",
+                        "Barlow": "Barlow",
+                        "Anton": "Anton",
+                        "Karla": "Karla",
+                        "Josefin Sans": "Josefin Sans",
+                        "Cabin": "Cabin",
+                        "Hind": "Hind",
+                        "Libre Franklin": "Libre Franklin",
+                        "Fjalla One": "Fjalla One",
+                        "Yanone Kaffeesatz": "Yanone Kaffeesatz",
+                        "Noto Sans SC": "Noto Sans SC",
+                        "Abel": "Abel",
+                        "Teko": "Teko",
+                        "Varela Round": "Varela Round",
+                        "Overpass": "Overpass",
+                        "Exo 2": "Exo 2",
+                        "Cairo": "Cairo",
+                        "Merriweather Sans": "Merriweather Sans",
+                        "IBM Plex Sans": "IBM Plex Sans",
+                        "Catamaran": "Catamaran",
+                        "Archivo Narrow": "Archivo Narrow",
+                        "Kanit": "Kanit",
+                        "Asap": "Asap",
+                        "Prompt": "Prompt",
+                        "Barlow Condensed": "Barlow Condensed",
+                        "Hind Madurai": "Hind Madurai",
+                        "Acme": "Acme",
+                        "Questrial": "Questrial",
+                        "Play": "Play",
+                        "Maven Pro": "Maven Pro",
+                        "Exo": "Exo",
+                        "Rajdhani": "Rajdhani",
+                        "PT Sans Caption": "PT Sans Caption",
+                        "Noto Sans HK": "Noto Sans HK",
+                        "Signika": "Signika",
+                        "Assistant": "Assistant",
+                        "Fira Sans Condensed": "Fira Sans Condensed",
+                        "ABeeZee": "ABeeZee",
+                        "Ubuntu Condensed": "Ubuntu Condensed",
+                        "Tajawal": "Tajawal",
+                        "Alegreya Sans": "Alegreya Sans",
+                        "Francois One": "Francois One",
+                        "Archivo": "Archivo",
+                        "Barlow Semi Condensed": "Barlow Semi Condensed",
+                        "Monda": "Monda",
+                        "Archivo Black": "Archivo Black",
+                        "DM Sans": "DM Sans",
+                        "Cuprum": "Cuprum",
+                        "Cantarell": "Cantarell",
+                        "Pathway Gothic One": "Pathway Gothic One",
+                        "Inter": "Inter",
+                        "Electrolize": "Electrolize",
+                        "Yantramanav": "Yantramanav",
+                        "News Cycle": "News Cycle",
+                        "Quattrocento Sans": "Quattrocento Sans",
+                        "Didact Gothic": "Didact Gothic",
+                        "Orbitron": "Orbitron",
+                        "Hind Vadodara": "Hind Vadodara",
+                        "Ropa Sans": "Ropa Sans",
+                        "Asap Condensed": "Asap Condensed",
+                        "Chivo": "Chivo",
+                        "Istok Web": "Istok Web",
+                        "Changa": "Changa",
+                        "M PLUS 1p": "M PLUS 1p",
+                        "Fira Sans Extra Condensed": "Fira Sans Extra Condensed",
+                        "Sarabun": "Sarabun",
+                        "Hind Guntur": "Hind Guntur",
+                        "Advent Pro": "Advent Pro"
+                    },
+                    "default_value": "Inter",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff26c019a9fd",
+                    "label": "Custom Font",
+                    "name": "custom_font",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff26c019a9fb",
+                                "operator": "==",
+                                "value": "custom"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "woff, woff2"
+                },
+                {
+                    "key": "field_5ff26c019a9fe",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "normal": "Normal",
+                        "italic": "Italic",
+                        "oblique": "Oblique"
+                    },
+                    "default_value": "default",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff26c019a9ff",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff26c019aa00",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 400,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff26c019aa01",
+                    "label": "Line Height",
+                    "name": "line_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.2",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5fb823b781f8d",
+            "label": "Content Area",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5fb8247981f8e",
+            "label": "Section",
+            "name": "nxg_blog_content_section",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5fb824b881f8f",
+                    "label": "Layout",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fb824cb81f91",
+                    "label": "Max Width",
+                    "name": "max_width",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1200,
+                    "min": 800,
+                    "max": 1920,
+                    "step": 10,
+                    "prepend": "",
+                    "append": "px"
+                },
+                {
+                    "key": "field_5fb8255581f92",
+                    "label": "Vertical Padding",
+                    "name": "vertical_padding",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 130,
+                    "min": "",
+                    "max": 400,
+                    "step": 5,
+                    "prepend": "",
+                    "append": "px"
+                },
+                {
+                    "key": "field_5fb8262981f93",
+                    "label": "Columns",
+                    "name": "columns",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 2,
+                    "min": 1,
+                    "max": 6,
+                    "step": 1,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5fbd22fe14af5",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fbd230b14af6",
+                    "label": "Background Color",
+                    "name": "background_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5fb8278b393ac",
+            "label": "Pagination",
+            "name": "nxg_blog_content_pagination",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5fb8278b393af",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fb8278b393b0",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5fb82dce129aa",
+                    "label": "Accent Color",
+                    "name": "accent_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5fbc521beea8f",
+            "label": "Post Item",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5fbc52b7eea90",
+            "label": "Block",
+            "name": "nxg_blog_post_item_block",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5fbc5412eea97",
+                    "label": "Layout",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fbc14999110a",
+                    "label": "Min Height",
+                    "name": "min_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 360,
+                    "min": 200,
+                    "max": 800,
+                    "step": 5,
+                    "prepend": "",
+                    "append": "px"
+                },
+                {
+                    "key": "field_5fbc5470eea9b",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fb82f91129ae",
+                    "label": "Background Color",
+                    "name": "background_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ff28299345b5",
+            "label": "Heading",
+            "name": "nxg_blog_post_item_h4",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ff28299345b6",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff28299345b7",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff28299345b8",
+                    "label": "Typography",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff28299345b9",
+                    "label": "Desktop",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff28299345ba",
+                    "label": "Font Type",
+                    "name": "font_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "google": "Google Font",
+                        "custom": "Custom Font"
+                    },
+                    "default_value": "google",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff28299345bb",
+                    "label": "Font Family",
+                    "name": "font_family",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff28299345ba",
+                                "operator": "==",
+                                "value": "google"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Roboto": "Roboto",
+                        "Open Sans": "Open Sans",
+                        "Noto Sans JP": "Noto Sans JP",
+                        "Lato": "Lato",
+                        "Montserrat": "Montserrat",
+                        "Roboto Condensed": "Roboto Condensed",
+                        "Source Sans Pro": "Source Sans Pro",
+                        "Oswald": "Oswald",
+                        "Raleway": "Raleway",
+                        "Poppins": "Poppins",
+                        "Noto Sans": "Noto Sans",
+                        "Ubuntu": "Ubuntu",
+                        "PT Sans": "PT Sans",
+                        "Open Sans Condensed": "Open Sans Condensed",
+                        "Muli": "Muli",
+                        "Nunito": "Nunito",
+                        "Mukta": "Mukta",
+                        "Fira Sans": "Fira Sans",
+                        "Rubik": "Rubik",
+                        "Work Sans": "Work Sans",
+                        "Noto Sans KR": "Noto Sans KR",
+                        "Titillium Web": "Titillium Web",
+                        "Noto Sans TC": "Noto Sans TC",
+                        "Nanum Gothic": "Nanum Gothic",
+                        "Nunito Sans": "Nunito Sans",
+                        "Quicksand": "Quicksand",
+                        "Arimo": "Arimo",
+                        "PT Sans Narrow": "PT Sans Narrow",
+                        "Heebo": "Heebo",
+                        "Hind Siliguri": "Hind Siliguri",
+                        "Oxygen": "Oxygen",
+                        "Dosis": "Dosis",
+                        "Barlow": "Barlow",
+                        "Anton": "Anton",
+                        "Karla": "Karla",
+                        "Josefin Sans": "Josefin Sans",
+                        "Cabin": "Cabin",
+                        "Hind": "Hind",
+                        "Libre Franklin": "Libre Franklin",
+                        "Fjalla One": "Fjalla One",
+                        "Yanone Kaffeesatz": "Yanone Kaffeesatz",
+                        "Noto Sans SC": "Noto Sans SC",
+                        "Abel": "Abel",
+                        "Teko": "Teko",
+                        "Varela Round": "Varela Round",
+                        "Overpass": "Overpass",
+                        "Exo 2": "Exo 2",
+                        "Cairo": "Cairo",
+                        "Merriweather Sans": "Merriweather Sans",
+                        "IBM Plex Sans": "IBM Plex Sans",
+                        "Catamaran": "Catamaran",
+                        "Archivo Narrow": "Archivo Narrow",
+                        "Kanit": "Kanit",
+                        "Asap": "Asap",
+                        "Prompt": "Prompt",
+                        "Barlow Condensed": "Barlow Condensed",
+                        "Hind Madurai": "Hind Madurai",
+                        "Acme": "Acme",
+                        "Questrial": "Questrial",
+                        "Play": "Play",
+                        "Maven Pro": "Maven Pro",
+                        "Exo": "Exo",
+                        "Rajdhani": "Rajdhani",
+                        "PT Sans Caption": "PT Sans Caption",
+                        "Noto Sans HK": "Noto Sans HK",
+                        "Signika": "Signika",
+                        "Assistant": "Assistant",
+                        "Fira Sans Condensed": "Fira Sans Condensed",
+                        "ABeeZee": "ABeeZee",
+                        "Ubuntu Condensed": "Ubuntu Condensed",
+                        "Tajawal": "Tajawal",
+                        "Alegreya Sans": "Alegreya Sans",
+                        "Francois One": "Francois One",
+                        "Archivo": "Archivo",
+                        "Barlow Semi Condensed": "Barlow Semi Condensed",
+                        "Monda": "Monda",
+                        "Archivo Black": "Archivo Black",
+                        "DM Sans": "DM Sans",
+                        "Cuprum": "Cuprum",
+                        "Cantarell": "Cantarell",
+                        "Pathway Gothic One": "Pathway Gothic One",
+                        "Inter": "Inter",
+                        "Electrolize": "Electrolize",
+                        "Yantramanav": "Yantramanav",
+                        "News Cycle": "News Cycle",
+                        "Quattrocento Sans": "Quattrocento Sans",
+                        "Didact Gothic": "Didact Gothic",
+                        "Orbitron": "Orbitron",
+                        "Hind Vadodara": "Hind Vadodara",
+                        "Ropa Sans": "Ropa Sans",
+                        "Asap Condensed": "Asap Condensed",
+                        "Chivo": "Chivo",
+                        "Istok Web": "Istok Web",
+                        "Changa": "Changa",
+                        "M PLUS 1p": "M PLUS 1p",
+                        "Fira Sans Extra Condensed": "Fira Sans Extra Condensed",
+                        "Sarabun": "Sarabun",
+                        "Hind Guntur": "Hind Guntur",
+                        "Advent Pro": "Advent Pro"
+                    },
+                    "default_value": "Inter",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff28299345bc",
+                    "label": "Custom Font",
+                    "name": "custom_font",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff28299345ba",
+                                "operator": "==",
+                                "value": "custom"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "",
+                    "library": "",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "woff, woff2"
+                },
+                {
+                    "key": "field_5ff28299345bd",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "normal": "Normal",
+                        "italic": "Italic",
+                        "oblique": "Oblique"
+                    },
+                    "default_value": "default",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff28299345be",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.5",
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff28299345bf",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 700,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff28299345c0",
+                    "label": "Line Height",
+                    "name": "line_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.2",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff28299345c1",
+                    "label": "Mobile",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff28299345c2",
+                    "label": "Font Size",
+                    "name": "font_size_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.5",
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff28299345c3",
+                    "label": "Font Weight",
+                    "name": "font_weight_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 700,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff28299345c4",
+                    "label": "Line Height",
+                    "name": "line_height_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.2",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ff282d3345c5",
+            "label": "Excerpt",
+            "name": "nxg_blog_post_item_p",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ff282d4345c6",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff282d4345c7",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff282d4345c8",
+                    "label": "Typography",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff282d4345c9",
+                    "label": "Desktop",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff282d4345ca",
+                    "label": "Font Type",
+                    "name": "font_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "google": "Google Font",
+                        "custom": "Custom Font"
+                    },
+                    "default_value": "google",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff282d4345cb",
+                    "label": "Font Family",
+                    "name": "font_family",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff282d4345ca",
+                                "operator": "==",
+                                "value": "google"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Roboto": "Roboto",
+                        "Open Sans": "Open Sans",
+                        "Noto Sans JP": "Noto Sans JP",
+                        "Lato": "Lato",
+                        "Montserrat": "Montserrat",
+                        "Roboto Condensed": "Roboto Condensed",
+                        "Source Sans Pro": "Source Sans Pro",
+                        "Oswald": "Oswald",
+                        "Raleway": "Raleway",
+                        "Poppins": "Poppins",
+                        "Noto Sans": "Noto Sans",
+                        "Ubuntu": "Ubuntu",
+                        "PT Sans": "PT Sans",
+                        "Open Sans Condensed": "Open Sans Condensed",
+                        "Muli": "Muli",
+                        "Nunito": "Nunito",
+                        "Mukta": "Mukta",
+                        "Fira Sans": "Fira Sans",
+                        "Rubik": "Rubik",
+                        "Work Sans": "Work Sans",
+                        "Noto Sans KR": "Noto Sans KR",
+                        "Titillium Web": "Titillium Web",
+                        "Noto Sans TC": "Noto Sans TC",
+                        "Nanum Gothic": "Nanum Gothic",
+                        "Nunito Sans": "Nunito Sans",
+                        "Quicksand": "Quicksand",
+                        "Arimo": "Arimo",
+                        "PT Sans Narrow": "PT Sans Narrow",
+                        "Heebo": "Heebo",
+                        "Hind Siliguri": "Hind Siliguri",
+                        "Oxygen": "Oxygen",
+                        "Dosis": "Dosis",
+                        "Barlow": "Barlow",
+                        "Anton": "Anton",
+                        "Karla": "Karla",
+                        "Josefin Sans": "Josefin Sans",
+                        "Cabin": "Cabin",
+                        "Hind": "Hind",
+                        "Libre Franklin": "Libre Franklin",
+                        "Fjalla One": "Fjalla One",
+                        "Yanone Kaffeesatz": "Yanone Kaffeesatz",
+                        "Noto Sans SC": "Noto Sans SC",
+                        "Abel": "Abel",
+                        "Teko": "Teko",
+                        "Varela Round": "Varela Round",
+                        "Overpass": "Overpass",
+                        "Exo 2": "Exo 2",
+                        "Cairo": "Cairo",
+                        "Merriweather Sans": "Merriweather Sans",
+                        "IBM Plex Sans": "IBM Plex Sans",
+                        "Catamaran": "Catamaran",
+                        "Archivo Narrow": "Archivo Narrow",
+                        "Kanit": "Kanit",
+                        "Asap": "Asap",
+                        "Prompt": "Prompt",
+                        "Barlow Condensed": "Barlow Condensed",
+                        "Hind Madurai": "Hind Madurai",
+                        "Acme": "Acme",
+                        "Questrial": "Questrial",
+                        "Play": "Play",
+                        "Maven Pro": "Maven Pro",
+                        "Exo": "Exo",
+                        "Rajdhani": "Rajdhani",
+                        "PT Sans Caption": "PT Sans Caption",
+                        "Noto Sans HK": "Noto Sans HK",
+                        "Signika": "Signika",
+                        "Assistant": "Assistant",
+                        "Fira Sans Condensed": "Fira Sans Condensed",
+                        "ABeeZee": "ABeeZee",
+                        "Ubuntu Condensed": "Ubuntu Condensed",
+                        "Tajawal": "Tajawal",
+                        "Alegreya Sans": "Alegreya Sans",
+                        "Francois One": "Francois One",
+                        "Archivo": "Archivo",
+                        "Barlow Semi Condensed": "Barlow Semi Condensed",
+                        "Monda": "Monda",
+                        "Archivo Black": "Archivo Black",
+                        "DM Sans": "DM Sans",
+                        "Cuprum": "Cuprum",
+                        "Cantarell": "Cantarell",
+                        "Pathway Gothic One": "Pathway Gothic One",
+                        "Inter": "Inter",
+                        "Electrolize": "Electrolize",
+                        "Yantramanav": "Yantramanav",
+                        "News Cycle": "News Cycle",
+                        "Quattrocento Sans": "Quattrocento Sans",
+                        "Didact Gothic": "Didact Gothic",
+                        "Orbitron": "Orbitron",
+                        "Hind Vadodara": "Hind Vadodara",
+                        "Ropa Sans": "Ropa Sans",
+                        "Asap Condensed": "Asap Condensed",
+                        "Chivo": "Chivo",
+                        "Istok Web": "Istok Web",
+                        "Changa": "Changa",
+                        "M PLUS 1p": "M PLUS 1p",
+                        "Fira Sans Extra Condensed": "Fira Sans Extra Condensed",
+                        "Sarabun": "Sarabun",
+                        "Hind Guntur": "Hind Guntur",
+                        "Advent Pro": "Advent Pro"
+                    },
+                    "default_value": "Inter",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff282d4345cc",
+                    "label": "Custom Font",
+                    "name": "custom_font",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff282d4345ca",
+                                "operator": "==",
+                                "value": "custom"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "woff, woff2"
+                },
+                {
+                    "key": "field_5ff282d4345cd",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "normal": "Normal",
+                        "italic": "Italic",
+                        "oblique": "Oblique"
+                    },
+                    "default_value": "default",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff282d4345ce",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff282d4345cf",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 400,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff282d4345d0",
+                    "label": "Line Height",
+                    "name": "line_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.5",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff282d4345d1",
+                    "label": "Mobile",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff282d4345d2",
+                    "label": "Font Size",
+                    "name": "font_size_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff282d4345d3",
+                    "label": "Font Weight",
+                    "name": "font_weight_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 400,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff282d4345d4",
+                    "label": "Line Height",
+                    "name": "line_height_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.5",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ff28361345d5",
+            "label": "Link",
+            "name": "nxg_blog_post_item_link",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ff28361345d8",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff28361345d9",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff28361345da",
+                    "label": "Text Hover Color",
+                    "name": "text_hover_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff28361345db",
+                    "label": "Typography",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff28361345dc",
+                    "label": "Desktop",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff28361345dd",
+                    "label": "Font Type",
+                    "name": "font_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "google": "Google Font",
+                        "custom": "Custom Font"
+                    },
+                    "default_value": "google",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff28361345de",
+                    "label": "Font Family",
+                    "name": "font_family",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff28361345dd",
+                                "operator": "==",
+                                "value": "google"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Roboto": "Roboto",
+                        "Open Sans": "Open Sans",
+                        "Noto Sans JP": "Noto Sans JP",
+                        "Lato": "Lato",
+                        "Montserrat": "Montserrat",
+                        "Roboto Condensed": "Roboto Condensed",
+                        "Source Sans Pro": "Source Sans Pro",
+                        "Oswald": "Oswald",
+                        "Raleway": "Raleway",
+                        "Poppins": "Poppins",
+                        "Noto Sans": "Noto Sans",
+                        "Ubuntu": "Ubuntu",
+                        "PT Sans": "PT Sans",
+                        "Open Sans Condensed": "Open Sans Condensed",
+                        "Muli": "Muli",
+                        "Nunito": "Nunito",
+                        "Mukta": "Mukta",
+                        "Fira Sans": "Fira Sans",
+                        "Rubik": "Rubik",
+                        "Work Sans": "Work Sans",
+                        "Noto Sans KR": "Noto Sans KR",
+                        "Titillium Web": "Titillium Web",
+                        "Noto Sans TC": "Noto Sans TC",
+                        "Nanum Gothic": "Nanum Gothic",
+                        "Nunito Sans": "Nunito Sans",
+                        "Quicksand": "Quicksand",
+                        "Arimo": "Arimo",
+                        "PT Sans Narrow": "PT Sans Narrow",
+                        "Heebo": "Heebo",
+                        "Hind Siliguri": "Hind Siliguri",
+                        "Oxygen": "Oxygen",
+                        "Dosis": "Dosis",
+                        "Barlow": "Barlow",
+                        "Anton": "Anton",
+                        "Karla": "Karla",
+                        "Josefin Sans": "Josefin Sans",
+                        "Cabin": "Cabin",
+                        "Hind": "Hind",
+                        "Libre Franklin": "Libre Franklin",
+                        "Fjalla One": "Fjalla One",
+                        "Yanone Kaffeesatz": "Yanone Kaffeesatz",
+                        "Noto Sans SC": "Noto Sans SC",
+                        "Abel": "Abel",
+                        "Teko": "Teko",
+                        "Varela Round": "Varela Round",
+                        "Overpass": "Overpass",
+                        "Exo 2": "Exo 2",
+                        "Cairo": "Cairo",
+                        "Merriweather Sans": "Merriweather Sans",
+                        "IBM Plex Sans": "IBM Plex Sans",
+                        "Catamaran": "Catamaran",
+                        "Archivo Narrow": "Archivo Narrow",
+                        "Kanit": "Kanit",
+                        "Asap": "Asap",
+                        "Prompt": "Prompt",
+                        "Barlow Condensed": "Barlow Condensed",
+                        "Hind Madurai": "Hind Madurai",
+                        "Acme": "Acme",
+                        "Questrial": "Questrial",
+                        "Play": "Play",
+                        "Maven Pro": "Maven Pro",
+                        "Exo": "Exo",
+                        "Rajdhani": "Rajdhani",
+                        "PT Sans Caption": "PT Sans Caption",
+                        "Noto Sans HK": "Noto Sans HK",
+                        "Signika": "Signika",
+                        "Assistant": "Assistant",
+                        "Fira Sans Condensed": "Fira Sans Condensed",
+                        "ABeeZee": "ABeeZee",
+                        "Ubuntu Condensed": "Ubuntu Condensed",
+                        "Tajawal": "Tajawal",
+                        "Alegreya Sans": "Alegreya Sans",
+                        "Francois One": "Francois One",
+                        "Archivo": "Archivo",
+                        "Barlow Semi Condensed": "Barlow Semi Condensed",
+                        "Monda": "Monda",
+                        "Archivo Black": "Archivo Black",
+                        "DM Sans": "DM Sans",
+                        "Cuprum": "Cuprum",
+                        "Cantarell": "Cantarell",
+                        "Pathway Gothic One": "Pathway Gothic One",
+                        "Inter": "Inter",
+                        "Electrolize": "Electrolize",
+                        "Yantramanav": "Yantramanav",
+                        "News Cycle": "News Cycle",
+                        "Quattrocento Sans": "Quattrocento Sans",
+                        "Didact Gothic": "Didact Gothic",
+                        "Orbitron": "Orbitron",
+                        "Hind Vadodara": "Hind Vadodara",
+                        "Ropa Sans": "Ropa Sans",
+                        "Asap Condensed": "Asap Condensed",
+                        "Chivo": "Chivo",
+                        "Istok Web": "Istok Web",
+                        "Changa": "Changa",
+                        "M PLUS 1p": "M PLUS 1p",
+                        "Fira Sans Extra Condensed": "Fira Sans Extra Condensed",
+                        "Sarabun": "Sarabun",
+                        "Hind Guntur": "Hind Guntur",
+                        "Advent Pro": "Advent Pro"
+                    },
+                    "default_value": "Inter",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff28361345df",
+                    "label": "Custom Font",
+                    "name": "custom_font",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff28361345dd",
+                                "operator": "==",
+                                "value": "custom"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "woff, woff2"
+                },
+                {
+                    "key": "field_5ff28361345e0",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "normal": "Normal",
+                        "italic": "Italic",
+                        "oblique": "Oblique"
+                    },
+                    "default_value": "default",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff28361345e1",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff28361345e2",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 400,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff28361345e3",
+                    "label": "Line Height",
+                    "name": "line_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.5",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5fbc0ee785d60",
+            "label": "Sidebar",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5fbc0eff85d61",
+            "label": "Section",
+            "name": "nxg_blog_sidebar_section",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5fbc623196aa1",
+                    "label": "Display",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fbc6ab488720",
+                    "label": "Disable",
+                    "name": "disable",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5fd0411987172",
+                    "label": "Sidebar",
+                    "name": "sidebar",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "sidebar-1": "Sidebar 1",
+                        "sidebar-2": "Sidebar 2",
+                        "sidebar-3": "Sidebar 3",
+                        "sidebar-4": "Sidebar 4"
+                    },
+                    "default_value": "sidebar-1",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5fbc0f7a85d62",
+                    "label": "Position",
+                    "name": "position",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "left": "Left",
+                        "right": "Right"
+                    },
+                    "allow_null": 0,
+                    "default_value": "right",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                }
+            ]
+        },
+        {
+            "key": "field_5ff29002caf9c",
+            "label": "Heading",
+            "name": "nxg_blog_sidebar_h4",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ff29002caf9d",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff29002caf9e",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff29002caf9f",
+                    "label": "Typography",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff29002cafa0",
+                    "label": "Desktop",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff29002cafa1",
+                    "label": "Font Type",
+                    "name": "font_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "google": "Google Font",
+                        "custom": "Custom Font"
+                    },
+                    "default_value": "google",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff29002cafa2",
+                    "label": "Font Family",
+                    "name": "font_family",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff29002cafa1",
+                                "operator": "==",
+                                "value": "google"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Roboto": "Roboto",
+                        "Open Sans": "Open Sans",
+                        "Noto Sans JP": "Noto Sans JP",
+                        "Lato": "Lato",
+                        "Montserrat": "Montserrat",
+                        "Roboto Condensed": "Roboto Condensed",
+                        "Source Sans Pro": "Source Sans Pro",
+                        "Oswald": "Oswald",
+                        "Raleway": "Raleway",
+                        "Poppins": "Poppins",
+                        "Noto Sans": "Noto Sans",
+                        "Ubuntu": "Ubuntu",
+                        "PT Sans": "PT Sans",
+                        "Open Sans Condensed": "Open Sans Condensed",
+                        "Muli": "Muli",
+                        "Nunito": "Nunito",
+                        "Mukta": "Mukta",
+                        "Fira Sans": "Fira Sans",
+                        "Rubik": "Rubik",
+                        "Work Sans": "Work Sans",
+                        "Noto Sans KR": "Noto Sans KR",
+                        "Titillium Web": "Titillium Web",
+                        "Noto Sans TC": "Noto Sans TC",
+                        "Nanum Gothic": "Nanum Gothic",
+                        "Nunito Sans": "Nunito Sans",
+                        "Quicksand": "Quicksand",
+                        "Arimo": "Arimo",
+                        "PT Sans Narrow": "PT Sans Narrow",
+                        "Heebo": "Heebo",
+                        "Hind Siliguri": "Hind Siliguri",
+                        "Oxygen": "Oxygen",
+                        "Dosis": "Dosis",
+                        "Barlow": "Barlow",
+                        "Anton": "Anton",
+                        "Karla": "Karla",
+                        "Josefin Sans": "Josefin Sans",
+                        "Cabin": "Cabin",
+                        "Hind": "Hind",
+                        "Libre Franklin": "Libre Franklin",
+                        "Fjalla One": "Fjalla One",
+                        "Yanone Kaffeesatz": "Yanone Kaffeesatz",
+                        "Noto Sans SC": "Noto Sans SC",
+                        "Abel": "Abel",
+                        "Teko": "Teko",
+                        "Varela Round": "Varela Round",
+                        "Overpass": "Overpass",
+                        "Exo 2": "Exo 2",
+                        "Cairo": "Cairo",
+                        "Merriweather Sans": "Merriweather Sans",
+                        "IBM Plex Sans": "IBM Plex Sans",
+                        "Catamaran": "Catamaran",
+                        "Archivo Narrow": "Archivo Narrow",
+                        "Kanit": "Kanit",
+                        "Asap": "Asap",
+                        "Prompt": "Prompt",
+                        "Barlow Condensed": "Barlow Condensed",
+                        "Hind Madurai": "Hind Madurai",
+                        "Acme": "Acme",
+                        "Questrial": "Questrial",
+                        "Play": "Play",
+                        "Maven Pro": "Maven Pro",
+                        "Exo": "Exo",
+                        "Rajdhani": "Rajdhani",
+                        "PT Sans Caption": "PT Sans Caption",
+                        "Noto Sans HK": "Noto Sans HK",
+                        "Signika": "Signika",
+                        "Assistant": "Assistant",
+                        "Fira Sans Condensed": "Fira Sans Condensed",
+                        "ABeeZee": "ABeeZee",
+                        "Ubuntu Condensed": "Ubuntu Condensed",
+                        "Tajawal": "Tajawal",
+                        "Alegreya Sans": "Alegreya Sans",
+                        "Francois One": "Francois One",
+                        "Archivo": "Archivo",
+                        "Barlow Semi Condensed": "Barlow Semi Condensed",
+                        "Monda": "Monda",
+                        "Archivo Black": "Archivo Black",
+                        "DM Sans": "DM Sans",
+                        "Cuprum": "Cuprum",
+                        "Cantarell": "Cantarell",
+                        "Pathway Gothic One": "Pathway Gothic One",
+                        "Inter": "Inter",
+                        "Electrolize": "Electrolize",
+                        "Yantramanav": "Yantramanav",
+                        "News Cycle": "News Cycle",
+                        "Quattrocento Sans": "Quattrocento Sans",
+                        "Didact Gothic": "Didact Gothic",
+                        "Orbitron": "Orbitron",
+                        "Hind Vadodara": "Hind Vadodara",
+                        "Ropa Sans": "Ropa Sans",
+                        "Asap Condensed": "Asap Condensed",
+                        "Chivo": "Chivo",
+                        "Istok Web": "Istok Web",
+                        "Changa": "Changa",
+                        "M PLUS 1p": "M PLUS 1p",
+                        "Fira Sans Extra Condensed": "Fira Sans Extra Condensed",
+                        "Sarabun": "Sarabun",
+                        "Hind Guntur": "Hind Guntur",
+                        "Advent Pro": "Advent Pro"
+                    },
+                    "default_value": "Inter",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff29002cafa3",
+                    "label": "Custom Font",
+                    "name": "custom_font",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff29002cafa1",
+                                "operator": "==",
+                                "value": "custom"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "woff, woff2"
+                },
+                {
+                    "key": "field_5ff29002cafa4",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "normal": "Normal",
+                        "italic": "Italic",
+                        "oblique": "Oblique"
+                    },
+                    "default_value": "default",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff29002cafa5",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.5",
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff29002cafa6",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 700,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff29002cafa7",
+                    "label": "Line Height",
+                    "name": "line_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.2",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff29002cafa8",
+                    "label": "Mobile",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff29002cafa9",
+                    "label": "Font Size",
+                    "name": "font_size_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.5",
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff29002cafaa",
+                    "label": "Font Weight",
+                    "name": "font_weight_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 700,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff29002cafab",
+                    "label": "Line Height",
+                    "name": "line_height_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.2",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ff29010cafc8",
+            "label": "Paragraph",
+            "name": "nxg_blog_sidebar_p",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ff29010cafc9",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff29010cafca",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff29010cafcb",
+                    "label": "Typography",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff29010cafcc",
+                    "label": "Desktop",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff29010cafcd",
+                    "label": "Font Type",
+                    "name": "font_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "google": "Google Font",
+                        "custom": "Custom Font"
+                    },
+                    "default_value": "google",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff29010cafce",
+                    "label": "Font Family",
+                    "name": "font_family",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff29010cafcd",
+                                "operator": "==",
+                                "value": "google"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Roboto": "Roboto",
+                        "Open Sans": "Open Sans",
+                        "Noto Sans JP": "Noto Sans JP",
+                        "Lato": "Lato",
+                        "Montserrat": "Montserrat",
+                        "Roboto Condensed": "Roboto Condensed",
+                        "Source Sans Pro": "Source Sans Pro",
+                        "Oswald": "Oswald",
+                        "Raleway": "Raleway",
+                        "Poppins": "Poppins",
+                        "Noto Sans": "Noto Sans",
+                        "Ubuntu": "Ubuntu",
+                        "PT Sans": "PT Sans",
+                        "Open Sans Condensed": "Open Sans Condensed",
+                        "Muli": "Muli",
+                        "Nunito": "Nunito",
+                        "Mukta": "Mukta",
+                        "Fira Sans": "Fira Sans",
+                        "Rubik": "Rubik",
+                        "Work Sans": "Work Sans",
+                        "Noto Sans KR": "Noto Sans KR",
+                        "Titillium Web": "Titillium Web",
+                        "Noto Sans TC": "Noto Sans TC",
+                        "Nanum Gothic": "Nanum Gothic",
+                        "Nunito Sans": "Nunito Sans",
+                        "Quicksand": "Quicksand",
+                        "Arimo": "Arimo",
+                        "PT Sans Narrow": "PT Sans Narrow",
+                        "Heebo": "Heebo",
+                        "Hind Siliguri": "Hind Siliguri",
+                        "Oxygen": "Oxygen",
+                        "Dosis": "Dosis",
+                        "Barlow": "Barlow",
+                        "Anton": "Anton",
+                        "Karla": "Karla",
+                        "Josefin Sans": "Josefin Sans",
+                        "Cabin": "Cabin",
+                        "Hind": "Hind",
+                        "Libre Franklin": "Libre Franklin",
+                        "Fjalla One": "Fjalla One",
+                        "Yanone Kaffeesatz": "Yanone Kaffeesatz",
+                        "Noto Sans SC": "Noto Sans SC",
+                        "Abel": "Abel",
+                        "Teko": "Teko",
+                        "Varela Round": "Varela Round",
+                        "Overpass": "Overpass",
+                        "Exo 2": "Exo 2",
+                        "Cairo": "Cairo",
+                        "Merriweather Sans": "Merriweather Sans",
+                        "IBM Plex Sans": "IBM Plex Sans",
+                        "Catamaran": "Catamaran",
+                        "Archivo Narrow": "Archivo Narrow",
+                        "Kanit": "Kanit",
+                        "Asap": "Asap",
+                        "Prompt": "Prompt",
+                        "Barlow Condensed": "Barlow Condensed",
+                        "Hind Madurai": "Hind Madurai",
+                        "Acme": "Acme",
+                        "Questrial": "Questrial",
+                        "Play": "Play",
+                        "Maven Pro": "Maven Pro",
+                        "Exo": "Exo",
+                        "Rajdhani": "Rajdhani",
+                        "PT Sans Caption": "PT Sans Caption",
+                        "Noto Sans HK": "Noto Sans HK",
+                        "Signika": "Signika",
+                        "Assistant": "Assistant",
+                        "Fira Sans Condensed": "Fira Sans Condensed",
+                        "ABeeZee": "ABeeZee",
+                        "Ubuntu Condensed": "Ubuntu Condensed",
+                        "Tajawal": "Tajawal",
+                        "Alegreya Sans": "Alegreya Sans",
+                        "Francois One": "Francois One",
+                        "Archivo": "Archivo",
+                        "Barlow Semi Condensed": "Barlow Semi Condensed",
+                        "Monda": "Monda",
+                        "Archivo Black": "Archivo Black",
+                        "DM Sans": "DM Sans",
+                        "Cuprum": "Cuprum",
+                        "Cantarell": "Cantarell",
+                        "Pathway Gothic One": "Pathway Gothic One",
+                        "Inter": "Inter",
+                        "Electrolize": "Electrolize",
+                        "Yantramanav": "Yantramanav",
+                        "News Cycle": "News Cycle",
+                        "Quattrocento Sans": "Quattrocento Sans",
+                        "Didact Gothic": "Didact Gothic",
+                        "Orbitron": "Orbitron",
+                        "Hind Vadodara": "Hind Vadodara",
+                        "Ropa Sans": "Ropa Sans",
+                        "Asap Condensed": "Asap Condensed",
+                        "Chivo": "Chivo",
+                        "Istok Web": "Istok Web",
+                        "Changa": "Changa",
+                        "M PLUS 1p": "M PLUS 1p",
+                        "Fira Sans Extra Condensed": "Fira Sans Extra Condensed",
+                        "Sarabun": "Sarabun",
+                        "Hind Guntur": "Hind Guntur",
+                        "Advent Pro": "Advent Pro"
+                    },
+                    "default_value": "Inter",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff29010cafcf",
+                    "label": "Custom Font",
+                    "name": "custom_font",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff29010cafcd",
+                                "operator": "==",
+                                "value": "custom"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "woff, woff2"
+                },
+                {
+                    "key": "field_5ff29010cafd0",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "normal": "Normal",
+                        "italic": "Italic",
+                        "oblique": "Oblique"
+                    },
+                    "default_value": "default",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff29010cafd1",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff29010cafd2",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 400,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff29010cafd3",
+                    "label": "Line Height",
+                    "name": "line_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.5",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff29010cafd4",
+                    "label": "Mobile",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff29010cafd5",
+                    "label": "Font Size",
+                    "name": "font_size_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff29010cafd6",
+                    "label": "Font Weight",
+                    "name": "font_weight_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 400,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff29010cafd7",
+                    "label": "Line Height",
+                    "name": "line_height_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.5",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ff2902825185",
+            "label": "Link",
+            "name": "nxg_blog_sidebar_link",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ff2902825186",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff2902825187",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff2902825188",
+                    "label": "Text Hover Color",
+                    "name": "text_hover_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff2902825189",
+                    "label": "Typography",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff290282518a",
+                    "label": "Desktop",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff290282518b",
+                    "label": "Font Type",
+                    "name": "font_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "google": "Google Font",
+                        "custom": "Custom Font"
+                    },
+                    "default_value": "google",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff290282518c",
+                    "label": "Font Family",
+                    "name": "font_family",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff290282518b",
+                                "operator": "==",
+                                "value": "google"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Roboto": "Roboto",
+                        "Open Sans": "Open Sans",
+                        "Noto Sans JP": "Noto Sans JP",
+                        "Lato": "Lato",
+                        "Montserrat": "Montserrat",
+                        "Roboto Condensed": "Roboto Condensed",
+                        "Source Sans Pro": "Source Sans Pro",
+                        "Oswald": "Oswald",
+                        "Raleway": "Raleway",
+                        "Poppins": "Poppins",
+                        "Noto Sans": "Noto Sans",
+                        "Ubuntu": "Ubuntu",
+                        "PT Sans": "PT Sans",
+                        "Open Sans Condensed": "Open Sans Condensed",
+                        "Muli": "Muli",
+                        "Nunito": "Nunito",
+                        "Mukta": "Mukta",
+                        "Fira Sans": "Fira Sans",
+                        "Rubik": "Rubik",
+                        "Work Sans": "Work Sans",
+                        "Noto Sans KR": "Noto Sans KR",
+                        "Titillium Web": "Titillium Web",
+                        "Noto Sans TC": "Noto Sans TC",
+                        "Nanum Gothic": "Nanum Gothic",
+                        "Nunito Sans": "Nunito Sans",
+                        "Quicksand": "Quicksand",
+                        "Arimo": "Arimo",
+                        "PT Sans Narrow": "PT Sans Narrow",
+                        "Heebo": "Heebo",
+                        "Hind Siliguri": "Hind Siliguri",
+                        "Oxygen": "Oxygen",
+                        "Dosis": "Dosis",
+                        "Barlow": "Barlow",
+                        "Anton": "Anton",
+                        "Karla": "Karla",
+                        "Josefin Sans": "Josefin Sans",
+                        "Cabin": "Cabin",
+                        "Hind": "Hind",
+                        "Libre Franklin": "Libre Franklin",
+                        "Fjalla One": "Fjalla One",
+                        "Yanone Kaffeesatz": "Yanone Kaffeesatz",
+                        "Noto Sans SC": "Noto Sans SC",
+                        "Abel": "Abel",
+                        "Teko": "Teko",
+                        "Varela Round": "Varela Round",
+                        "Overpass": "Overpass",
+                        "Exo 2": "Exo 2",
+                        "Cairo": "Cairo",
+                        "Merriweather Sans": "Merriweather Sans",
+                        "IBM Plex Sans": "IBM Plex Sans",
+                        "Catamaran": "Catamaran",
+                        "Archivo Narrow": "Archivo Narrow",
+                        "Kanit": "Kanit",
+                        "Asap": "Asap",
+                        "Prompt": "Prompt",
+                        "Barlow Condensed": "Barlow Condensed",
+                        "Hind Madurai": "Hind Madurai",
+                        "Acme": "Acme",
+                        "Questrial": "Questrial",
+                        "Play": "Play",
+                        "Maven Pro": "Maven Pro",
+                        "Exo": "Exo",
+                        "Rajdhani": "Rajdhani",
+                        "PT Sans Caption": "PT Sans Caption",
+                        "Noto Sans HK": "Noto Sans HK",
+                        "Signika": "Signika",
+                        "Assistant": "Assistant",
+                        "Fira Sans Condensed": "Fira Sans Condensed",
+                        "ABeeZee": "ABeeZee",
+                        "Ubuntu Condensed": "Ubuntu Condensed",
+                        "Tajawal": "Tajawal",
+                        "Alegreya Sans": "Alegreya Sans",
+                        "Francois One": "Francois One",
+                        "Archivo": "Archivo",
+                        "Barlow Semi Condensed": "Barlow Semi Condensed",
+                        "Monda": "Monda",
+                        "Archivo Black": "Archivo Black",
+                        "DM Sans": "DM Sans",
+                        "Cuprum": "Cuprum",
+                        "Cantarell": "Cantarell",
+                        "Pathway Gothic One": "Pathway Gothic One",
+                        "Inter": "Inter",
+                        "Electrolize": "Electrolize",
+                        "Yantramanav": "Yantramanav",
+                        "News Cycle": "News Cycle",
+                        "Quattrocento Sans": "Quattrocento Sans",
+                        "Didact Gothic": "Didact Gothic",
+                        "Orbitron": "Orbitron",
+                        "Hind Vadodara": "Hind Vadodara",
+                        "Ropa Sans": "Ropa Sans",
+                        "Asap Condensed": "Asap Condensed",
+                        "Chivo": "Chivo",
+                        "Istok Web": "Istok Web",
+                        "Changa": "Changa",
+                        "M PLUS 1p": "M PLUS 1p",
+                        "Fira Sans Extra Condensed": "Fira Sans Extra Condensed",
+                        "Sarabun": "Sarabun",
+                        "Hind Guntur": "Hind Guntur",
+                        "Advent Pro": "Advent Pro"
+                    },
+                    "default_value": "Inter",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff290282518d",
+                    "label": "Custom Font",
+                    "name": "custom_font",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff290282518b",
+                                "operator": "==",
+                                "value": "custom"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "woff, woff2"
+                },
+                {
+                    "key": "field_5ff290282518e",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "normal": "Normal",
+                        "italic": "Italic",
+                        "oblique": "Oblique"
+                    },
+                    "default_value": "default",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff290282518f",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff2902825190",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 400,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff2902825191",
+                    "label": "Line Height",
+                    "name": "line_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.5",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ff29008cafac",
+            "label": "Button",
+            "name": "nxg_blog_sidebar_button",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ff29008cafad",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff29008cafae",
+                    "label": "Background Color",
+                    "name": "background_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff29008cafaf",
+                    "label": "Background Hover Color",
+                    "name": "background_hover_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff29008cafb0",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff29008cafb1",
+                    "label": "Typography",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff29008cafb2",
+                    "label": "Desktop",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff29008cafb3",
+                    "label": "Font Type",
+                    "name": "font_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "google": "Google Font",
+                        "custom": "Custom Font"
+                    },
+                    "default_value": "google",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff29008cafb4",
+                    "label": "Font Family",
+                    "name": "font_family",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff29008cafb3",
+                                "operator": "==",
+                                "value": "google"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Roboto": "Roboto",
+                        "Open Sans": "Open Sans",
+                        "Noto Sans JP": "Noto Sans JP",
+                        "Lato": "Lato",
+                        "Montserrat": "Montserrat",
+                        "Roboto Condensed": "Roboto Condensed",
+                        "Source Sans Pro": "Source Sans Pro",
+                        "Oswald": "Oswald",
+                        "Raleway": "Raleway",
+                        "Poppins": "Poppins",
+                        "Noto Sans": "Noto Sans",
+                        "Ubuntu": "Ubuntu",
+                        "PT Sans": "PT Sans",
+                        "Open Sans Condensed": "Open Sans Condensed",
+                        "Muli": "Muli",
+                        "Nunito": "Nunito",
+                        "Mukta": "Mukta",
+                        "Fira Sans": "Fira Sans",
+                        "Rubik": "Rubik",
+                        "Work Sans": "Work Sans",
+                        "Noto Sans KR": "Noto Sans KR",
+                        "Titillium Web": "Titillium Web",
+                        "Noto Sans TC": "Noto Sans TC",
+                        "Nanum Gothic": "Nanum Gothic",
+                        "Nunito Sans": "Nunito Sans",
+                        "Quicksand": "Quicksand",
+                        "Arimo": "Arimo",
+                        "PT Sans Narrow": "PT Sans Narrow",
+                        "Heebo": "Heebo",
+                        "Hind Siliguri": "Hind Siliguri",
+                        "Oxygen": "Oxygen",
+                        "Dosis": "Dosis",
+                        "Barlow": "Barlow",
+                        "Anton": "Anton",
+                        "Karla": "Karla",
+                        "Josefin Sans": "Josefin Sans",
+                        "Cabin": "Cabin",
+                        "Hind": "Hind",
+                        "Libre Franklin": "Libre Franklin",
+                        "Fjalla One": "Fjalla One",
+                        "Yanone Kaffeesatz": "Yanone Kaffeesatz",
+                        "Noto Sans SC": "Noto Sans SC",
+                        "Abel": "Abel",
+                        "Teko": "Teko",
+                        "Varela Round": "Varela Round",
+                        "Overpass": "Overpass",
+                        "Exo 2": "Exo 2",
+                        "Cairo": "Cairo",
+                        "Merriweather Sans": "Merriweather Sans",
+                        "IBM Plex Sans": "IBM Plex Sans",
+                        "Catamaran": "Catamaran",
+                        "Archivo Narrow": "Archivo Narrow",
+                        "Kanit": "Kanit",
+                        "Asap": "Asap",
+                        "Prompt": "Prompt",
+                        "Barlow Condensed": "Barlow Condensed",
+                        "Hind Madurai": "Hind Madurai",
+                        "Acme": "Acme",
+                        "Questrial": "Questrial",
+                        "Play": "Play",
+                        "Maven Pro": "Maven Pro",
+                        "Exo": "Exo",
+                        "Rajdhani": "Rajdhani",
+                        "PT Sans Caption": "PT Sans Caption",
+                        "Noto Sans HK": "Noto Sans HK",
+                        "Signika": "Signika",
+                        "Assistant": "Assistant",
+                        "Fira Sans Condensed": "Fira Sans Condensed",
+                        "ABeeZee": "ABeeZee",
+                        "Ubuntu Condensed": "Ubuntu Condensed",
+                        "Tajawal": "Tajawal",
+                        "Alegreya Sans": "Alegreya Sans",
+                        "Francois One": "Francois One",
+                        "Archivo": "Archivo",
+                        "Barlow Semi Condensed": "Barlow Semi Condensed",
+                        "Monda": "Monda",
+                        "Archivo Black": "Archivo Black",
+                        "DM Sans": "DM Sans",
+                        "Cuprum": "Cuprum",
+                        "Cantarell": "Cantarell",
+                        "Pathway Gothic One": "Pathway Gothic One",
+                        "Inter": "Inter",
+                        "Electrolize": "Electrolize",
+                        "Yantramanav": "Yantramanav",
+                        "News Cycle": "News Cycle",
+                        "Quattrocento Sans": "Quattrocento Sans",
+                        "Didact Gothic": "Didact Gothic",
+                        "Orbitron": "Orbitron",
+                        "Hind Vadodara": "Hind Vadodara",
+                        "Ropa Sans": "Ropa Sans",
+                        "Asap Condensed": "Asap Condensed",
+                        "Chivo": "Chivo",
+                        "Istok Web": "Istok Web",
+                        "Changa": "Changa",
+                        "M PLUS 1p": "M PLUS 1p",
+                        "Fira Sans Extra Condensed": "Fira Sans Extra Condensed",
+                        "Sarabun": "Sarabun",
+                        "Hind Guntur": "Hind Guntur",
+                        "Advent Pro": "Advent Pro"
+                    },
+                    "default_value": "Inter",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff29008cafb5",
+                    "label": "Custom Font",
+                    "name": "custom_font",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff29008cafb3",
+                                "operator": "==",
+                                "value": "custom"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "woff, woff2"
+                },
+                {
+                    "key": "field_5ff29008cafb6",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "normal": "Normal",
+                        "italic": "Italic",
+                        "oblique": "Oblique"
+                    },
+                    "default_value": "default",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff29008cafb7",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff29008cafb8",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 500,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff29008cafb9",
+                    "label": "Line Height",
+                    "name": "line_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.2",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ff2900bcafba",
+            "label": "Field",
+            "name": "nxg_blog_sidebar_field",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ff2900ccafbb",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff2900ccafbc",
+                    "label": "Background Color",
+                    "name": "background_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff2900ccafbd",
+                    "label": "Background Focus Color",
+                    "name": "background_focus_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff2900ccafbe",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff2900ccafbf",
+                    "label": "Typography",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff2900ccafc0",
+                    "label": "Desktop",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff2900ccafc1",
+                    "label": "Font Type",
+                    "name": "font_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "google": "Google Font",
+                        "custom": "Custom Font"
+                    },
+                    "default_value": "google",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff2900ccafc2",
+                    "label": "Font Family",
+                    "name": "font_family",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff2900ccafc1",
+                                "operator": "==",
+                                "value": "google"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Roboto": "Roboto",
+                        "Open Sans": "Open Sans",
+                        "Noto Sans JP": "Noto Sans JP",
+                        "Lato": "Lato",
+                        "Montserrat": "Montserrat",
+                        "Roboto Condensed": "Roboto Condensed",
+                        "Source Sans Pro": "Source Sans Pro",
+                        "Oswald": "Oswald",
+                        "Raleway": "Raleway",
+                        "Poppins": "Poppins",
+                        "Noto Sans": "Noto Sans",
+                        "Ubuntu": "Ubuntu",
+                        "PT Sans": "PT Sans",
+                        "Open Sans Condensed": "Open Sans Condensed",
+                        "Muli": "Muli",
+                        "Nunito": "Nunito",
+                        "Mukta": "Mukta",
+                        "Fira Sans": "Fira Sans",
+                        "Rubik": "Rubik",
+                        "Work Sans": "Work Sans",
+                        "Noto Sans KR": "Noto Sans KR",
+                        "Titillium Web": "Titillium Web",
+                        "Noto Sans TC": "Noto Sans TC",
+                        "Nanum Gothic": "Nanum Gothic",
+                        "Nunito Sans": "Nunito Sans",
+                        "Quicksand": "Quicksand",
+                        "Arimo": "Arimo",
+                        "PT Sans Narrow": "PT Sans Narrow",
+                        "Heebo": "Heebo",
+                        "Hind Siliguri": "Hind Siliguri",
+                        "Oxygen": "Oxygen",
+                        "Dosis": "Dosis",
+                        "Barlow": "Barlow",
+                        "Anton": "Anton",
+                        "Karla": "Karla",
+                        "Josefin Sans": "Josefin Sans",
+                        "Cabin": "Cabin",
+                        "Hind": "Hind",
+                        "Libre Franklin": "Libre Franklin",
+                        "Fjalla One": "Fjalla One",
+                        "Yanone Kaffeesatz": "Yanone Kaffeesatz",
+                        "Noto Sans SC": "Noto Sans SC",
+                        "Abel": "Abel",
+                        "Teko": "Teko",
+                        "Varela Round": "Varela Round",
+                        "Overpass": "Overpass",
+                        "Exo 2": "Exo 2",
+                        "Cairo": "Cairo",
+                        "Merriweather Sans": "Merriweather Sans",
+                        "IBM Plex Sans": "IBM Plex Sans",
+                        "Catamaran": "Catamaran",
+                        "Archivo Narrow": "Archivo Narrow",
+                        "Kanit": "Kanit",
+                        "Asap": "Asap",
+                        "Prompt": "Prompt",
+                        "Barlow Condensed": "Barlow Condensed",
+                        "Hind Madurai": "Hind Madurai",
+                        "Acme": "Acme",
+                        "Questrial": "Questrial",
+                        "Play": "Play",
+                        "Maven Pro": "Maven Pro",
+                        "Exo": "Exo",
+                        "Rajdhani": "Rajdhani",
+                        "PT Sans Caption": "PT Sans Caption",
+                        "Noto Sans HK": "Noto Sans HK",
+                        "Signika": "Signika",
+                        "Assistant": "Assistant",
+                        "Fira Sans Condensed": "Fira Sans Condensed",
+                        "ABeeZee": "ABeeZee",
+                        "Ubuntu Condensed": "Ubuntu Condensed",
+                        "Tajawal": "Tajawal",
+                        "Alegreya Sans": "Alegreya Sans",
+                        "Francois One": "Francois One",
+                        "Archivo": "Archivo",
+                        "Barlow Semi Condensed": "Barlow Semi Condensed",
+                        "Monda": "Monda",
+                        "Archivo Black": "Archivo Black",
+                        "DM Sans": "DM Sans",
+                        "Cuprum": "Cuprum",
+                        "Cantarell": "Cantarell",
+                        "Pathway Gothic One": "Pathway Gothic One",
+                        "Inter": "Inter",
+                        "Electrolize": "Electrolize",
+                        "Yantramanav": "Yantramanav",
+                        "News Cycle": "News Cycle",
+                        "Quattrocento Sans": "Quattrocento Sans",
+                        "Didact Gothic": "Didact Gothic",
+                        "Orbitron": "Orbitron",
+                        "Hind Vadodara": "Hind Vadodara",
+                        "Ropa Sans": "Ropa Sans",
+                        "Asap Condensed": "Asap Condensed",
+                        "Chivo": "Chivo",
+                        "Istok Web": "Istok Web",
+                        "Changa": "Changa",
+                        "M PLUS 1p": "M PLUS 1p",
+                        "Fira Sans Extra Condensed": "Fira Sans Extra Condensed",
+                        "Sarabun": "Sarabun",
+                        "Hind Guntur": "Hind Guntur",
+                        "Advent Pro": "Advent Pro"
+                    },
+                    "default_value": "Inter",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff2900ccafc3",
+                    "label": "Custom Font",
+                    "name": "custom_font",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff2900ccafc1",
+                                "operator": "==",
+                                "value": "custom"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "woff, woff2"
+                },
+                {
+                    "key": "field_5ff2900ccafc4",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "normal": "Normal",
+                        "italic": "Italic",
+                        "oblique": "Oblique"
+                    },
+                    "default_value": "default",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff2900ccafc5",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff2900ccafc6",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 400,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff2900ccafc7",
+                    "label": "Line Height",
+                    "name": "line_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.5",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "nexgen-theme-settings-blog"
+            }
+        ]
+    ],
+    "menu_order": 5,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1615406832
+}

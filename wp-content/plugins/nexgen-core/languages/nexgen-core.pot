@@ -1,0 +1,1598 @@
+# Copyright (C) 2023 Codings
+# This file is distributed under the same license as the Nexgen Core plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nexgen Core 1.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/nexgen-core\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-09T19:27:27+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: nexgen-core\n"
+
+#. Plugin Name of the plugin
+#: nexgen-core.php:95
+#: nexgen-core.php:109
+#: nexgen-core.php:123
+#: nexgen-core.php:137
+msgid "Nexgen Core"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://nexgen.codings.dev"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin provides the full functionality of the Nexgen WordPress Theme."
+msgstr ""
+
+#. Author of the plugin
+msgid "Codings"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codings.dev"
+msgstr ""
+
+#: inc/content.php:28
+#: inc/content.php:276
+#: inc/content.php:946
+#: inc/content.php:1528
+#: inc/content.php:2038
+#: inc/content.php:2157
+msgid "Layout"
+msgstr ""
+
+#: inc/content.php:36
+#: inc/content.php:284
+msgid "Width"
+msgstr ""
+
+#: inc/content.php:56
+#: inc/content.php:155
+#: inc/content.php:304
+#: inc/content.php:403
+#: inc/content.php:591
+#: inc/content.php:638
+#: inc/content.php:684
+#: inc/content.php:744
+#: inc/content.php:819
+#: inc/content.php:1990
+msgid "Alignment"
+msgstr ""
+
+#: inc/content.php:60
+#: inc/content.php:159
+#: inc/content.php:308
+#: inc/content.php:407
+#: inc/content.php:595
+#: inc/content.php:642
+#: inc/content.php:688
+#: inc/content.php:748
+#: inc/content.php:772
+#: inc/content.php:823
+#: inc/content.php:1053
+#: inc/content.php:1137
+#: inc/content.php:1217
+#: inc/content.php:1274
+#: inc/content.php:1340
+#: inc/content.php:1484
+#: inc/content.php:1508
+#: inc/content.php:1646
+#: inc/content.php:1698
+#: inc/content.php:1792
+#: inc/content.php:1994
+msgid "Left"
+msgstr ""
+
+#: inc/content.php:64
+#: inc/content.php:163
+#: inc/content.php:312
+#: inc/content.php:411
+#: inc/content.php:599
+#: inc/content.php:646
+#: inc/content.php:692
+#: inc/content.php:752
+#: inc/content.php:827
+#: inc/content.php:1057
+#: inc/content.php:1141
+#: inc/content.php:1221
+#: inc/content.php:1344
+#: inc/content.php:1488
+#: inc/content.php:1512
+#: inc/content.php:1650
+#: inc/content.php:1702
+#: inc/content.php:1796
+#: inc/content.php:1998
+msgid "Center"
+msgstr ""
+
+#: inc/content.php:68
+#: inc/content.php:167
+#: inc/content.php:316
+#: inc/content.php:415
+#: inc/content.php:603
+#: inc/content.php:650
+#: inc/content.php:696
+#: inc/content.php:756
+#: inc/content.php:784
+#: inc/content.php:831
+#: inc/content.php:1061
+#: inc/content.php:1145
+#: inc/content.php:1225
+#: inc/content.php:1286
+#: inc/content.php:1348
+#: inc/content.php:1492
+#: inc/content.php:1516
+#: inc/content.php:1654
+#: inc/content.php:1706
+#: inc/content.php:1800
+#: inc/content.php:2002
+msgid "Right"
+msgstr ""
+
+#: inc/content.php:80
+#: inc/content.php:89
+#: inc/content.php:328
+#: inc/content.php:337
+#: inc/content.php:508
+#: inc/content.php:889
+#: inc/content.php:913
+#: inc/content.php:1251
+#: inc/content.php:2079
+#: inc/style.php:863
+#: inc/style.php:921
+#: widgets/nxg-image.php:18
+msgid "Image"
+msgstr ""
+
+#: inc/content.php:100
+#: inc/content.php:188
+#: inc/content.php:222
+#: inc/content.php:348
+#: inc/content.php:436
+#: inc/content.php:470
+#: inc/content.php:985
+#: inc/content.php:1298
+#: inc/content.php:1471
+#: inc/content.php:1614
+#: inc/content.php:1779
+#: inc/content.php:1871
+#: inc/content.php:1963
+msgid "Text"
+msgstr ""
+
+#: inc/content.php:109
+#: inc/content.php:357
+#: inc/content.php:581
+#: inc/style.php:183
+msgid "Pre-Title"
+msgstr ""
+
+#: inc/content.php:119
+#: inc/content.php:367
+#: inc/content.php:628
+#: inc/content.php:1971
+msgid "Heading"
+msgstr ""
+
+#: inc/content.php:129
+#: inc/content.php:377
+msgid "Tag"
+msgstr ""
+
+#: inc/content.php:132
+#: inc/content.php:380
+msgid "H1"
+msgstr ""
+
+#: inc/content.php:133
+#: inc/content.php:381
+msgid "H2"
+msgstr ""
+
+#: inc/content.php:134
+#: inc/content.php:382
+msgid "H3"
+msgstr ""
+
+#: inc/content.php:135
+#: inc/content.php:383
+msgid "H4"
+msgstr ""
+
+#: inc/content.php:136
+#: inc/content.php:384
+msgid "H5"
+msgstr ""
+
+#: inc/content.php:137
+#: inc/content.php:385
+msgid "H6"
+msgstr ""
+
+#: inc/content.php:146
+#: inc/content.php:394
+#: inc/content.php:675
+#: inc/content.php:1981
+#: widgets/nxg-paragraph.php:17
+msgid "Paragraph"
+msgstr ""
+
+#: inc/content.php:179
+#: inc/content.php:427
+msgid "Primary Button"
+msgstr ""
+
+#: inc/content.php:198
+#: inc/content.php:232
+#: inc/content.php:446
+#: inc/content.php:480
+#: inc/content.php:1007
+#: inc/content.php:1112
+#: inc/content.php:1387
+#: inc/content.php:1812
+#: inc/content.php:2100
+msgid "Link"
+msgstr ""
+
+#: inc/content.php:200
+#: inc/content.php:234
+#: inc/content.php:448
+#: inc/content.php:482
+#: inc/content.php:1012
+#: inc/content.php:1117
+#: inc/content.php:1389
+#: inc/content.php:1814
+#: inc/content.php:2102
+msgid "https://your-link.com"
+msgstr ""
+
+#: inc/content.php:213
+#: inc/content.php:461
+msgid "Secondary Button"
+msgstr ""
+
+#: inc/content.php:519
+msgid "Horizontal Position"
+msgstr ""
+
+#: inc/content.php:552
+msgid "Type"
+msgstr ""
+
+#: inc/content.php:555
+#: inc/content.php:1089
+msgid "None"
+msgstr ""
+
+#: inc/content.php:556
+msgid "Squares"
+msgstr ""
+
+#: inc/content.php:557
+msgid "Hexagons"
+msgstr ""
+
+#: inc/content.php:558
+msgid "Space"
+msgstr ""
+
+#: inc/content.php:559
+msgid "Neural"
+msgstr ""
+
+#: inc/content.php:723
+#: inc/content.php:734
+#: inc/style.php:550
+msgid "Number"
+msgstr ""
+
+#: inc/content.php:768
+#: inc/content.php:1049
+#: inc/content.php:1130
+#: inc/content.php:1213
+#: inc/content.php:1270
+#: inc/content.php:1642
+#: inc/content.php:1694
+msgid "Position"
+msgstr ""
+
+#: inc/content.php:776
+#: inc/content.php:1278
+msgid "Top"
+msgstr ""
+
+#: inc/content.php:780
+#: inc/content.php:1282
+msgid "Bottom"
+msgstr ""
+
+#: inc/content.php:809
+msgid "Price"
+msgstr ""
+
+#: inc/content.php:856
+#: inc/content.php:1317
+#: inc/content.php:2090
+msgid "Title"
+msgstr ""
+
+#: inc/content.php:866
+#: inc/content.php:997
+msgid "URL"
+msgstr ""
+
+#: inc/content.php:868
+msgid "Enter your URL (YouTube or Vimeo)"
+msgstr ""
+
+#: inc/content.php:937
+msgid "Add Images"
+msgstr ""
+
+#: inc/content.php:955
+#: inc/content.php:1537
+#: inc/content.php:2047
+#: inc/content.php:2166
+msgid "Columns"
+msgstr ""
+
+#: inc/content.php:994
+msgid "Link Type"
+msgstr ""
+
+#: inc/content.php:998
+msgid "Modal"
+msgstr ""
+
+#: inc/content.php:1025
+msgid "Modal Iframe"
+msgstr ""
+
+#: inc/content.php:1037
+msgid "Modal ID"
+msgstr ""
+
+#: inc/content.php:1086
+msgid "Action Type"
+msgstr ""
+
+#: inc/content.php:1090
+#: inc/style.php:1423
+msgid "Pulse Icon"
+msgstr ""
+
+#: inc/content.php:1091
+#: widgets/nxg-button.php:17
+msgid "Button"
+msgstr ""
+
+#: inc/content.php:1100
+msgid "Button Text"
+msgstr ""
+
+#: inc/content.php:1170
+msgid "Icon Style"
+msgstr ""
+
+#: inc/content.php:1173
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/content.php:1174
+msgid "Line Icons"
+msgstr ""
+
+#: inc/content.php:1183
+#: inc/content.php:1198
+#: inc/content.php:1375
+#: inc/content.php:1767
+#: inc/content.php:1859
+msgid "Icon"
+msgstr ""
+
+#: inc/content.php:1259
+msgid "Photo"
+msgstr ""
+
+#: inc/content.php:1307
+msgid "Name"
+msgstr ""
+
+#: inc/content.php:1327
+msgid "Biography"
+msgstr ""
+
+#: inc/content.php:1336
+#: inc/content.php:1480
+#: inc/content.php:1788
+msgid "Text Alignment"
+msgstr ""
+
+#: inc/content.php:1439
+#: inc/content.php:1917
+msgid "Display"
+msgstr ""
+
+#: inc/content.php:1447
+msgid "Author Name"
+msgstr ""
+
+#: inc/content.php:1449
+#: inc/content.php:1461
+#: inc/content.php:1589
+#: inc/content.php:1601
+#: inc/content.php:1684
+#: inc/content.php:1919
+msgid "Show"
+msgstr ""
+
+#: inc/content.php:1450
+#: inc/content.php:1462
+#: inc/content.php:1590
+#: inc/content.php:1602
+#: inc/content.php:1685
+#: inc/content.php:1920
+msgid "Hide"
+msgstr ""
+
+#: inc/content.php:1459
+msgid "Publish Date"
+msgstr ""
+
+#: inc/content.php:1504
+msgid "Metadata Alignment"
+msgstr ""
+
+#: inc/content.php:1554
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/content.php:1587
+msgid "Filter"
+msgstr ""
+
+#: inc/content.php:1599
+msgid "All Button"
+msgstr ""
+
+#: inc/content.php:1616
+msgid "All"
+msgstr ""
+
+#: inc/content.php:1627
+msgid "Categories"
+msgstr ""
+
+#: inc/content.php:1682
+#: inc/style.php:1704
+msgid "Pagination"
+msgstr ""
+
+#: inc/content.php:1734
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/content.php:1743
+msgid "Shortcode"
+msgstr ""
+
+#: inc/content.php:1745
+msgid "[contact-form-7 id=\"123\" title=\"Your Form\"]"
+msgstr ""
+
+#: inc/content.php:1928
+msgid "Sale Tag"
+msgstr ""
+
+#: inc/content.php:1930
+msgid "Most Popular"
+msgstr ""
+
+#: inc/content.php:1953
+msgid "Items"
+msgstr ""
+
+#: inc/functions.php:70
+msgid "user"
+msgstr ""
+
+#: inc/functions.php:71
+msgid "people"
+msgstr ""
+
+#: inc/functions.php:72
+msgid "user-female"
+msgstr ""
+
+#: inc/functions.php:73
+msgid "user-follow"
+msgstr ""
+
+#: inc/functions.php:74
+msgid "user-following"
+msgstr ""
+
+#: inc/functions.php:75
+msgid "user-unfollow"
+msgstr ""
+
+#: inc/functions.php:76
+msgid "login"
+msgstr ""
+
+#: inc/functions.php:77
+msgid "logout"
+msgstr ""
+
+#: inc/functions.php:78
+msgid "emotsmile"
+msgstr ""
+
+#: inc/functions.php:79
+msgid "phone"
+msgstr ""
+
+#: inc/functions.php:80
+msgid "call-end"
+msgstr ""
+
+#: inc/functions.php:81
+msgid "call-in"
+msgstr ""
+
+#: inc/functions.php:82
+msgid "call-out"
+msgstr ""
+
+#: inc/functions.php:83
+msgid "map"
+msgstr ""
+
+#: inc/functions.php:84
+msgid "location-pin"
+msgstr ""
+
+#: inc/functions.php:85
+msgid "direction"
+msgstr ""
+
+#: inc/functions.php:86
+msgid "directions"
+msgstr ""
+
+#: inc/functions.php:87
+msgid "compass"
+msgstr ""
+
+#: inc/functions.php:88
+msgid "layers"
+msgstr ""
+
+#: inc/functions.php:89
+msgid "menu"
+msgstr ""
+
+#: inc/functions.php:90
+msgid "list"
+msgstr ""
+
+#: inc/functions.php:91
+msgid "options-vertical"
+msgstr ""
+
+#: inc/functions.php:92
+msgid "options"
+msgstr ""
+
+#: inc/functions.php:93
+msgid "arrow-down"
+msgstr ""
+
+#: inc/functions.php:94
+msgid "arrow-left"
+msgstr ""
+
+#: inc/functions.php:95
+msgid "arrow-right"
+msgstr ""
+
+#: inc/functions.php:96
+msgid "arrow-up"
+msgstr ""
+
+#: inc/functions.php:97
+msgid "arrow-up-circle"
+msgstr ""
+
+#: inc/functions.php:98
+msgid "arrow-left-circle"
+msgstr ""
+
+#: inc/functions.php:99
+msgid "arrow-right-circle"
+msgstr ""
+
+#: inc/functions.php:100
+msgid "arrow-down-circle"
+msgstr ""
+
+#: inc/functions.php:101
+msgid "check"
+msgstr ""
+
+#: inc/functions.php:102
+msgid "clock"
+msgstr ""
+
+#: inc/functions.php:103
+msgid "plus"
+msgstr ""
+
+#: inc/functions.php:104
+msgid "minus"
+msgstr ""
+
+#: inc/functions.php:105
+msgid "close"
+msgstr ""
+
+#: inc/functions.php:106
+msgid "event"
+msgstr ""
+
+#: inc/functions.php:107
+msgid "exclamation"
+msgstr ""
+
+#: inc/functions.php:108
+msgid "organization"
+msgstr ""
+
+#: inc/functions.php:109
+msgid "trophy"
+msgstr ""
+
+#: inc/functions.php:110
+msgid "screen-smartphone"
+msgstr ""
+
+#: inc/functions.php:111
+msgid "screen-desktop"
+msgstr ""
+
+#: inc/functions.php:112
+msgid "plane"
+msgstr ""
+
+#: inc/functions.php:113
+msgid "notebook"
+msgstr ""
+
+#: inc/functions.php:114
+msgid "mustache"
+msgstr ""
+
+#: inc/functions.php:115
+msgid "mouse"
+msgstr ""
+
+#: inc/functions.php:116
+msgid "magnet"
+msgstr ""
+
+#: inc/functions.php:117
+msgid "energy"
+msgstr ""
+
+#: inc/functions.php:118
+msgid "disc"
+msgstr ""
+
+#: inc/functions.php:119
+msgid "cursor"
+msgstr ""
+
+#: inc/functions.php:120
+msgid "cursor-move"
+msgstr ""
+
+#: inc/functions.php:121
+msgid "crop"
+msgstr ""
+
+#: inc/functions.php:122
+msgid "chemistry"
+msgstr ""
+
+#: inc/functions.php:123
+msgid "speedometer"
+msgstr ""
+
+#: inc/functions.php:124
+msgid "shield"
+msgstr ""
+
+#: inc/functions.php:125
+msgid "screen-tablet"
+msgstr ""
+
+#: inc/functions.php:126
+msgid "magic-wand"
+msgstr ""
+
+#: inc/functions.php:127
+msgid "hourglass"
+msgstr ""
+
+#: inc/functions.php:128
+msgid "graduation"
+msgstr ""
+
+#: inc/functions.php:129
+msgid "ghost"
+msgstr ""
+
+#: inc/functions.php:130
+msgid "game-controller"
+msgstr ""
+
+#: inc/functions.php:131
+msgid "fire"
+msgstr ""
+
+#: inc/functions.php:132
+msgid "eyeglass"
+msgstr ""
+
+#: inc/functions.php:133
+msgid "envelope-open"
+msgstr ""
+
+#: inc/functions.php:134
+msgid "envelope-letter"
+msgstr ""
+
+#: inc/functions.php:135
+msgid "bell"
+msgstr ""
+
+#: inc/functions.php:136
+msgid "badge"
+msgstr ""
+
+#: inc/functions.php:137
+msgid "anchor"
+msgstr ""
+
+#: inc/functions.php:138
+msgid "wallet"
+msgstr ""
+
+#: inc/functions.php:139
+msgid "vector"
+msgstr ""
+
+#: inc/functions.php:140
+msgid "speech"
+msgstr ""
+
+#: inc/functions.php:141
+msgid "puzzle"
+msgstr ""
+
+#: inc/functions.php:142
+msgid "printer"
+msgstr ""
+
+#: inc/functions.php:143
+msgid "present"
+msgstr ""
+
+#: inc/functions.php:144
+msgid "playlist"
+msgstr ""
+
+#: inc/functions.php:145
+msgid "pin"
+msgstr ""
+
+#: inc/functions.php:146
+msgid "picture"
+msgstr ""
+
+#: inc/functions.php:147
+msgid "handbag"
+msgstr ""
+
+#: inc/functions.php:148
+msgid "globe-alt"
+msgstr ""
+
+#: inc/functions.php:149
+msgid "globe"
+msgstr ""
+
+#: inc/functions.php:150
+msgid "folder-alt"
+msgstr ""
+
+#: inc/functions.php:151
+msgid "folder"
+msgstr ""
+
+#: inc/functions.php:152
+msgid "film"
+msgstr ""
+
+#: inc/functions.php:153
+msgid "feed"
+msgstr ""
+
+#: inc/functions.php:154
+msgid "drop"
+msgstr ""
+
+#: inc/functions.php:155
+msgid "drawer"
+msgstr ""
+
+#: inc/functions.php:156
+msgid "docs"
+msgstr ""
+
+#: inc/functions.php:157
+msgid "doc"
+msgstr ""
+
+#: inc/functions.php:158
+msgid "diamond"
+msgstr ""
+
+#: inc/functions.php:159
+msgid "cup"
+msgstr ""
+
+#: inc/functions.php:160
+msgid "calculator"
+msgstr ""
+
+#: inc/functions.php:161
+msgid "bubbles"
+msgstr ""
+
+#: inc/functions.php:162
+msgid "briefcase"
+msgstr ""
+
+#: inc/functions.php:163
+msgid "book-open"
+msgstr ""
+
+#: inc/functions.php:164
+msgid "basket-loaded"
+msgstr ""
+
+#: inc/functions.php:165
+msgid "basket"
+msgstr ""
+
+#: inc/functions.php:166
+msgid "bag"
+msgstr ""
+
+#: inc/functions.php:167
+msgid "action-undo"
+msgstr ""
+
+#: inc/functions.php:168
+msgid "action-redo"
+msgstr ""
+
+#: inc/functions.php:169
+msgid "wrench"
+msgstr ""
+
+#: inc/functions.php:170
+msgid "umbrella"
+msgstr ""
+
+#: inc/functions.php:171
+msgid "trash"
+msgstr ""
+
+#: inc/functions.php:172
+msgid "tag"
+msgstr ""
+
+#: inc/functions.php:173
+msgid "support"
+msgstr ""
+
+#: inc/functions.php:174
+msgid "frame"
+msgstr ""
+
+#: inc/functions.php:175
+msgid "size-fullscreen"
+msgstr ""
+
+#: inc/functions.php:176
+msgid "size-actual"
+msgstr ""
+
+#: inc/functions.php:177
+msgid "shuffle"
+msgstr ""
+
+#: inc/functions.php:178
+msgid "share-alt"
+msgstr ""
+
+#: inc/functions.php:179
+msgid "share"
+msgstr ""
+
+#: inc/functions.php:180
+msgid "rocket"
+msgstr ""
+
+#: inc/functions.php:181
+msgid "question"
+msgstr ""
+
+#: inc/functions.php:182
+msgid "pie-chart"
+msgstr ""
+
+#: inc/functions.php:183
+msgid "pencil"
+msgstr ""
+
+#: inc/functions.php:184
+msgid "note"
+msgstr ""
+
+#: inc/functions.php:185
+msgid "loop"
+msgstr ""
+
+#: inc/functions.php:186
+msgid "home"
+msgstr ""
+
+#: inc/functions.php:187
+msgid "grid"
+msgstr ""
+
+#: inc/functions.php:188
+msgid "graph"
+msgstr ""
+
+#: inc/functions.php:189
+msgid "microphone"
+msgstr ""
+
+#: inc/functions.php:190
+msgid "music-tone-alt"
+msgstr ""
+
+#: inc/functions.php:191
+msgid "music-tone"
+msgstr ""
+
+#: inc/functions.php:192
+msgid "earphones-alt"
+msgstr ""
+
+#: inc/functions.php:193
+msgid "earphones"
+msgstr ""
+
+#: inc/functions.php:194
+msgid "equalizer"
+msgstr ""
+
+#: inc/functions.php:195
+msgid "like"
+msgstr ""
+
+#: inc/functions.php:196
+msgid "dislike"
+msgstr ""
+
+#: inc/functions.php:197
+msgid "control-start"
+msgstr ""
+
+#: inc/functions.php:198
+msgid "control-rewind"
+msgstr ""
+
+#: inc/functions.php:199
+msgid "control-play"
+msgstr ""
+
+#: inc/functions.php:200
+msgid "control-pause"
+msgstr ""
+
+#: inc/functions.php:201
+msgid "control-forward"
+msgstr ""
+
+#: inc/functions.php:202
+msgid "control-end"
+msgstr ""
+
+#: inc/functions.php:203
+msgid "volume-1"
+msgstr ""
+
+#: inc/functions.php:204
+msgid "volume-2"
+msgstr ""
+
+#: inc/functions.php:205
+msgid "volume-off"
+msgstr ""
+
+#: inc/functions.php:206
+msgid "calendar"
+msgstr ""
+
+#: inc/functions.php:207
+msgid "bulb"
+msgstr ""
+
+#: inc/functions.php:208
+msgid "chart"
+msgstr ""
+
+#: inc/functions.php:209
+msgid "ban"
+msgstr ""
+
+#: inc/functions.php:210
+msgid "bubble"
+msgstr ""
+
+#: inc/functions.php:211
+msgid "camrecorder"
+msgstr ""
+
+#: inc/functions.php:212
+msgid "camera"
+msgstr ""
+
+#: inc/functions.php:213
+msgid "cloud-download"
+msgstr ""
+
+#: inc/functions.php:214
+msgid "cloud-upload"
+msgstr ""
+
+#: inc/functions.php:215
+msgid "envelope"
+msgstr ""
+
+#: inc/functions.php:216
+msgid "eye"
+msgstr ""
+
+#: inc/functions.php:217
+msgid "flag"
+msgstr ""
+
+#: inc/functions.php:218
+msgid "heart"
+msgstr ""
+
+#: inc/functions.php:219
+msgid "info"
+msgstr ""
+
+#: inc/functions.php:220
+msgid "key"
+msgstr ""
+
+#: inc/functions.php:221
+msgid "link"
+msgstr ""
+
+#: inc/functions.php:222
+msgid "lock"
+msgstr ""
+
+#: inc/functions.php:223
+msgid "lock-open"
+msgstr ""
+
+#: inc/functions.php:224
+msgid "magnifier"
+msgstr ""
+
+#: inc/functions.php:225
+msgid "magnifier-add"
+msgstr ""
+
+#: inc/functions.php:226
+msgid "magnifier-remove"
+msgstr ""
+
+#: inc/functions.php:227
+msgid "paper-clip"
+msgstr ""
+
+#: inc/functions.php:228
+msgid "paper-plane"
+msgstr ""
+
+#: inc/functions.php:229
+msgid "power"
+msgstr ""
+
+#: inc/functions.php:230
+msgid "refresh"
+msgstr ""
+
+#: inc/functions.php:231
+msgid "reload"
+msgstr ""
+
+#: inc/functions.php:232
+msgid "settings"
+msgstr ""
+
+#: inc/functions.php:233
+msgid "star"
+msgstr ""
+
+#: inc/functions.php:234
+msgid "symbol-female"
+msgstr ""
+
+#: inc/functions.php:235
+msgid "symbol-male"
+msgstr ""
+
+#: inc/functions.php:236
+msgid "target"
+msgstr ""
+
+#: inc/functions.php:237
+msgid "credit-card"
+msgstr ""
+
+#: inc/functions.php:238
+msgid "paypal"
+msgstr ""
+
+#: inc/functions.php:239
+msgid "social-tumblr"
+msgstr ""
+
+#: inc/functions.php:240
+msgid "social-twitter"
+msgstr ""
+
+#: inc/functions.php:241
+msgid "social-facebook"
+msgstr ""
+
+#: inc/functions.php:242
+msgid "social-instagram"
+msgstr ""
+
+#: inc/functions.php:243
+msgid "social-linkedin"
+msgstr ""
+
+#: inc/functions.php:244
+msgid "social-pinterest"
+msgstr ""
+
+#: inc/functions.php:245
+msgid "social-github"
+msgstr ""
+
+#: inc/functions.php:246
+msgid "social-google"
+msgstr ""
+
+#: inc/functions.php:247
+msgid "social-reddit"
+msgstr ""
+
+#: inc/functions.php:248
+msgid "social-skype"
+msgstr ""
+
+#: inc/functions.php:249
+msgid "social-dribbble"
+msgstr ""
+
+#: inc/functions.php:250
+msgid "social-behance"
+msgstr ""
+
+#: inc/functions.php:251
+msgid "social-foursqare"
+msgstr ""
+
+#: inc/functions.php:252
+msgid "social-soundcloud"
+msgstr ""
+
+#: inc/functions.php:253
+msgid "social-spotify"
+msgstr ""
+
+#: inc/functions.php:254
+msgid "social-stumbleupon"
+msgstr ""
+
+#: inc/functions.php:255
+msgid "social-youtube"
+msgstr ""
+
+#: inc/functions.php:256
+msgid "social-dropbox"
+msgstr ""
+
+#: inc/functions.php:257
+msgid "social-vkontakte"
+msgstr ""
+
+#: inc/functions.php:258
+msgid "social-steam"
+msgstr ""
+
+#: inc/style.php:19
+#: inc/style.php:88
+msgid "Block"
+msgstr ""
+
+#: inc/style.php:27
+#: inc/style.php:119
+#: inc/style.php:211
+#: inc/style.php:301
+#: inc/style.php:392
+#: inc/style.php:489
+#: inc/style.php:577
+#: inc/style.php:758
+#: inc/style.php:798
+#: inc/style.php:929
+#: inc/style.php:1031
+#: inc/style.php:1083
+#: inc/style.php:1202
+#: inc/style.php:1235
+#: inc/style.php:1577
+#: inc/style.php:1608
+#: inc/style.php:1639
+#: inc/style.php:1723
+#: inc/style.php:1754
+#: inc/style.php:1785
+#: inc/style.php:1858
+msgid "Background Color"
+msgstr ""
+
+#: inc/style.php:38
+#: inc/style.php:130
+#: inc/style.php:222
+#: inc/style.php:312
+#: inc/style.php:405
+#: inc/style.php:500
+#: inc/style.php:588
+#: inc/style.php:846
+#: inc/style.php:871
+#: inc/style.php:1108
+#: inc/style.php:1251
+#: inc/style.php:1654
+#: inc/style.php:1871
+msgid "Margin"
+msgstr ""
+
+#: inc/style.php:50
+#: inc/style.php:142
+#: inc/style.php:234
+#: inc/style.php:324
+#: inc/style.php:418
+#: inc/style.php:512
+#: inc/style.php:601
+#: inc/style.php:834
+#: inc/style.php:883
+#: inc/style.php:1263
+#: inc/style.php:1666
+#: inc/style.php:1883
+msgid "Padding"
+msgstr ""
+
+#: inc/style.php:62
+#: inc/style.php:155
+#: inc/style.php:246
+#: inc/style.php:336
+#: inc/style.php:432
+#: inc/style.php:524
+#: inc/style.php:613
+#: inc/style.php:822
+#: inc/style.php:895
+#: inc/style.php:1120
+#: inc/style.php:1276
+#: inc/style.php:1678
+#: inc/style.php:1811
+#: inc/style.php:1895
+msgid "Border Radius"
+msgstr ""
+
+#: inc/style.php:75
+#: inc/style.php:170
+#: inc/style.php:259
+#: inc/style.php:349
+#: inc/style.php:446
+#: inc/style.php:537
+#: inc/style.php:626
+#: inc/style.php:770
+#: inc/style.php:810
+#: inc/style.php:908
+#: inc/style.php:1044
+#: inc/style.php:1096
+#: inc/style.php:1289
+#: inc/style.php:1691
+#: inc/style.php:1908
+msgid "Border"
+msgstr ""
+
+#: inc/style.php:96
+msgid "Min Height"
+msgstr ""
+
+#: inc/style.php:199
+#: inc/style.php:289
+#: inc/style.php:379
+#: inc/style.php:478
+#: inc/style.php:747
+#: inc/style.php:787
+#: inc/style.php:1566
+#: inc/style.php:1597
+#: inc/style.php:1628
+#: inc/style.php:1846
+msgid "Text Color"
+msgstr ""
+
+#: inc/style.php:362
+msgid "Heading Highlight"
+msgstr ""
+
+#: inc/style.php:566
+#: inc/style.php:647
+#: inc/style.php:1351
+#: inc/style.php:1402
+#: inc/style.php:1502
+msgid "Color"
+msgstr ""
+
+#: inc/style.php:639
+msgid "Line"
+msgstr ""
+
+#: inc/style.php:659
+msgid "Height"
+msgstr ""
+
+#: inc/style.php:687
+msgid "Progress Bar"
+msgstr ""
+
+#: inc/style.php:695
+msgid "Fill Color"
+msgstr ""
+
+#: inc/style.php:704
+msgid "Empty Color"
+msgstr ""
+
+#: inc/style.php:740
+#: inc/style.php:1002
+#: inc/style.php:1183
+#: inc/style.php:1314
+#: inc/style.php:1436
+#: inc/style.php:1559
+#: inc/style.php:1716
+msgid "Normal"
+msgstr ""
+
+#: inc/style.php:780
+#: inc/style.php:1054
+#: inc/style.php:1215
+#: inc/style.php:1365
+#: inc/style.php:1456
+#: inc/style.php:1590
+#: inc/style.php:1747
+msgid "Hover"
+msgstr ""
+
+#: inc/style.php:941
+#: inc/style.php:1009
+#: inc/style.php:1061
+#: inc/style.php:1511
+msgid "Opacity Control"
+msgstr ""
+
+#: inc/style.php:968
+msgid "Image Overlay"
+msgstr ""
+
+#: inc/style.php:976
+#: inc/style.php:1148
+#: inc/style.php:1321
+#: inc/style.php:1372
+msgid "Size"
+msgstr ""
+
+#: inc/style.php:1190
+#: inc/style.php:1222
+#: inc/style.php:1443
+#: inc/style.php:1463
+msgid "Icon Color"
+msgstr ""
+
+#: inc/style.php:1302
+msgid "Play Icon"
+msgstr ""
+
+#: inc/style.php:1474
+msgid "Pulse Color"
+msgstr ""
+
+#: inc/style.php:1491
+msgid "Particles"
+msgstr ""
+
+#: inc/style.php:1621
+#: inc/style.php:1778
+msgid "Active"
+msgstr ""
+
+#: inc/style.php:1734
+#: inc/style.php:1765
+#: inc/style.php:1796
+msgid "Border Color"
+msgstr ""
+
+#: inc/style.php:1829
+msgid "Field"
+msgstr ""
+
+#. translators: 1: Plugin name, 2: Plugin version.
+#: nexgen-core.php:94
+msgid "%1$s plugin requires %2$s to be installed and activated."
+msgstr ""
+
+#: nexgen-core.php:96
+msgid "Nexgen WordPress Theme"
+msgstr ""
+
+#. translators: 1: Plugin name, 2: Plugin version.
+#: nexgen-core.php:108
+msgid "%1$s plugin requires %2$s plugin to be installed and activated."
+msgstr ""
+
+#: nexgen-core.php:110
+msgid "Elementor Website Builder"
+msgstr ""
+
+#. translators: 1: Plugin name, 2: Plugin version.
+#: nexgen-core.php:122
+#: nexgen-core.php:136
+msgid "%1$s plugin requires %2$s version %3$s or greater."
+msgstr ""
+
+#: nexgen-core.php:124
+msgid "Elementor"
+msgstr ""
+
+#: nexgen-core.php:138
+msgid "PHP"
+msgstr ""
+
+#: nexgen-core.php:150
+msgid "Nexgen Widgets"
+msgstr ""
+
+#: widgets/nxg-banner.php:17
+msgid "Banner"
+msgstr ""
+
+#: widgets/nxg-card.php:17
+msgid "Card"
+msgstr ""
+
+#: widgets/nxg-counter-circle.php:18
+msgid "Counter Circle"
+msgstr ""
+
+#: widgets/nxg-counter.php:17
+msgid "Counter"
+msgstr ""
+
+#: widgets/nxg-dual-heading.php:17
+msgid "Dual Heading"
+msgstr ""
+
+#: widgets/nxg-form.php:17
+msgid "Form"
+msgstr ""
+
+#: widgets/nxg-icon-list.php:17
+msgid "Icon List"
+msgstr ""
+
+#: widgets/nxg-image-gallery.php:17
+msgid "Image Gallery"
+msgstr ""
+
+#: widgets/nxg-logo-carousel.php:17
+msgid "Logo Carousel"
+msgstr ""
+
+#: widgets/nxg-person.php:17
+msgid "Person"
+msgstr ""
+
+#: widgets/nxg-portfolio-carousel.php:18
+msgid "Portfolio Carousel"
+msgstr ""
+
+#: widgets/nxg-portfolio-carousel.php:76
+#: widgets/nxg-portfolio-grid.php:173
+#: widgets/nxg-post-carousel.php:77
+#: widgets/nxg-post-grid.php:159
+msgid "No image"
+msgstr ""
+
+#: widgets/nxg-portfolio-grid.php:18
+msgid "Portfolio Grid"
+msgstr ""
+
+#: widgets/nxg-post-carousel.php:18
+msgid "Post Carousel"
+msgstr ""
+
+#: widgets/nxg-post-grid.php:18
+msgid "Post Grid"
+msgstr ""
+
+#: widgets/nxg-pre-title.php:17
+msgid "Pre Title"
+msgstr ""
+
+#: widgets/nxg-pricing.php:17
+msgid "Pricing"
+msgstr ""
+
+#: widgets/nxg-process.php:17
+msgid "Process"
+msgstr ""
+
+#: widgets/nxg-slider.php:17
+msgid "Slider"
+msgstr ""
+
+#: widgets/nxg-testimonial-carousel.php:20
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: widgets/nxg-testimonial.php:17
+msgid "Testimonial"
+msgstr ""
+
+#: widgets/nxg-video.php:17
+msgid "Video"
+msgstr ""

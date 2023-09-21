@@ -1,0 +1,554 @@
+{
+    "key": "group_5fbd8e4b1dcb7",
+    "title": "Preloader",
+    "fields": [
+        {
+            "key": "field_5fbd8e4b3314b",
+            "label": "Section",
+            "name": "nxg_preloader_section",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5fbd8e4b3adce",
+                    "label": "Display",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fbd8e4b3cd04",
+                    "label": "Disable",
+                    "name": "disable",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5fbd8e77e3ce7",
+                    "label": "Timeout",
+                    "name": "timeout",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 2,
+                    "min": 1,
+                    "max": 10,
+                    "step": "0.5",
+                    "prepend": "",
+                    "append": "sec"
+                },
+                {
+                    "key": "field_5fbd8e4b3ec3f",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5fbd8e4b40b76",
+                    "label": "Background Color",
+                    "name": "background_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ff4fd8d293ac",
+            "label": "Counter",
+            "name": "nxg_preloader_span",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ff4fd8d293ad",
+                    "label": "Color",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff4fd8d293ae",
+                    "label": "Text Color",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5ff4fd8d293af",
+                    "label": "Typography",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff4fd8d293b0",
+                    "label": "Desktop",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff4fd8d293b1",
+                    "label": "Font Type",
+                    "name": "font_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "google": "Google Font",
+                        "custom": "Custom Font"
+                    },
+                    "default_value": "google",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff4fd8d293b2",
+                    "label": "Font Family",
+                    "name": "font_family",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff4fd8d293b1",
+                                "operator": "==",
+                                "value": "google"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Roboto": "Roboto",
+                        "Open Sans": "Open Sans",
+                        "Noto Sans JP": "Noto Sans JP",
+                        "Lato": "Lato",
+                        "Montserrat": "Montserrat",
+                        "Roboto Condensed": "Roboto Condensed",
+                        "Source Sans Pro": "Source Sans Pro",
+                        "Oswald": "Oswald",
+                        "Raleway": "Raleway",
+                        "Poppins": "Poppins",
+                        "Noto Sans": "Noto Sans",
+                        "Ubuntu": "Ubuntu",
+                        "PT Sans": "PT Sans",
+                        "Open Sans Condensed": "Open Sans Condensed",
+                        "Muli": "Muli",
+                        "Nunito": "Nunito",
+                        "Mukta": "Mukta",
+                        "Fira Sans": "Fira Sans",
+                        "Rubik": "Rubik",
+                        "Work Sans": "Work Sans",
+                        "Noto Sans KR": "Noto Sans KR",
+                        "Titillium Web": "Titillium Web",
+                        "Noto Sans TC": "Noto Sans TC",
+                        "Nanum Gothic": "Nanum Gothic",
+                        "Nunito Sans": "Nunito Sans",
+                        "Quicksand": "Quicksand",
+                        "Arimo": "Arimo",
+                        "PT Sans Narrow": "PT Sans Narrow",
+                        "Heebo": "Heebo",
+                        "Hind Siliguri": "Hind Siliguri",
+                        "Oxygen": "Oxygen",
+                        "Dosis": "Dosis",
+                        "Barlow": "Barlow",
+                        "Anton": "Anton",
+                        "Karla": "Karla",
+                        "Josefin Sans": "Josefin Sans",
+                        "Cabin": "Cabin",
+                        "Hind": "Hind",
+                        "Libre Franklin": "Libre Franklin",
+                        "Fjalla One": "Fjalla One",
+                        "Yanone Kaffeesatz": "Yanone Kaffeesatz",
+                        "Noto Sans SC": "Noto Sans SC",
+                        "Abel": "Abel",
+                        "Teko": "Teko",
+                        "Varela Round": "Varela Round",
+                        "Overpass": "Overpass",
+                        "Exo 2": "Exo 2",
+                        "Cairo": "Cairo",
+                        "Merriweather Sans": "Merriweather Sans",
+                        "IBM Plex Sans": "IBM Plex Sans",
+                        "Catamaran": "Catamaran",
+                        "Archivo Narrow": "Archivo Narrow",
+                        "Kanit": "Kanit",
+                        "Asap": "Asap",
+                        "Prompt": "Prompt",
+                        "Barlow Condensed": "Barlow Condensed",
+                        "Hind Madurai": "Hind Madurai",
+                        "Acme": "Acme",
+                        "Questrial": "Questrial",
+                        "Play": "Play",
+                        "Maven Pro": "Maven Pro",
+                        "Exo": "Exo",
+                        "Rajdhani": "Rajdhani",
+                        "PT Sans Caption": "PT Sans Caption",
+                        "Noto Sans HK": "Noto Sans HK",
+                        "Signika": "Signika",
+                        "Assistant": "Assistant",
+                        "Fira Sans Condensed": "Fira Sans Condensed",
+                        "ABeeZee": "ABeeZee",
+                        "Ubuntu Condensed": "Ubuntu Condensed",
+                        "Tajawal": "Tajawal",
+                        "Alegreya Sans": "Alegreya Sans",
+                        "Francois One": "Francois One",
+                        "Archivo": "Archivo",
+                        "Barlow Semi Condensed": "Barlow Semi Condensed",
+                        "Monda": "Monda",
+                        "Archivo Black": "Archivo Black",
+                        "DM Sans": "DM Sans",
+                        "Cuprum": "Cuprum",
+                        "Cantarell": "Cantarell",
+                        "Pathway Gothic One": "Pathway Gothic One",
+                        "Inter": "Inter",
+                        "Electrolize": "Electrolize",
+                        "Yantramanav": "Yantramanav",
+                        "News Cycle": "News Cycle",
+                        "Quattrocento Sans": "Quattrocento Sans",
+                        "Didact Gothic": "Didact Gothic",
+                        "Orbitron": "Orbitron",
+                        "Hind Vadodara": "Hind Vadodara",
+                        "Ropa Sans": "Ropa Sans",
+                        "Asap Condensed": "Asap Condensed",
+                        "Chivo": "Chivo",
+                        "Istok Web": "Istok Web",
+                        "Changa": "Changa",
+                        "M PLUS 1p": "M PLUS 1p",
+                        "Fira Sans Extra Condensed": "Fira Sans Extra Condensed",
+                        "Sarabun": "Sarabun",
+                        "Hind Guntur": "Hind Guntur",
+                        "Advent Pro": "Advent Pro"
+                    },
+                    "default_value": "Inter",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff4fd8d293b3",
+                    "label": "Custom Font",
+                    "name": "custom_font",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ff4fd8d293b1",
+                                "operator": "==",
+                                "value": "custom"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "woff, woff2"
+                },
+                {
+                    "key": "field_5ff4fd8d293b4",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "normal": "Normal",
+                        "italic": "Italic",
+                        "oblique": "Oblique"
+                    },
+                    "default_value": "default",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ff4fd8d293b5",
+                    "label": "Font Size",
+                    "name": "font_size",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 4,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff4fd8d293b6",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 900,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff4fd8e293b7",
+                    "label": "Line Height",
+                    "name": "line_height",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.2",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff4fd8e293b8",
+                    "label": "Mobile",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 1,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_5ff4fd8e293b9",
+                    "label": "Font Size",
+                    "name": "font_size_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 3,
+                    "min": "0.1",
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "rem"
+                },
+                {
+                    "key": "field_5ff4fd8e293ba",
+                    "label": "Font Weight",
+                    "name": "font_weight_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 900,
+                    "min": 100,
+                    "max": 900,
+                    "step": 100,
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5ff4fd8e293bb",
+                    "label": "Line Height",
+                    "name": "line_height_mobile",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.3333",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "1.2",
+                    "min": 0,
+                    "max": 10,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "nexgen-theme-settings-preloader"
+            }
+        ]
+    ],
+    "menu_order": 12,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1615407049
+}

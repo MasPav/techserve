@@ -1,0 +1,783 @@
+# Copyright (C) 2023 Codings
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nexgen 1.1.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/nexgen\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-09T19:25:17+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: nexgen\n"
+
+#. Theme Name of the theme
+#: inc/admin/release-notes.php:13
+#: inc/admin/release-notes.php:14
+msgid "Nexgen"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://nexgen.codings.dev"
+msgstr ""
+
+#. Description of the theme
+msgid "Nexgen is a functional and elegant WordPress theme. Built to the smallest detail with a focus on flexibility and feature availability, it is undoubtedly one of the most complete themes ever created."
+msgstr ""
+
+#. Author of the theme
+msgid "Codings"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://codings.dev"
+msgstr ""
+
+#: inc/admin/release-notes.php:49
+msgid "License Information"
+msgstr ""
+
+#: inc/admin/release-notes.php:60
+msgid "See how to find your purchase code"
+msgstr ""
+
+#: inc/admin/release-notes.php:70
+msgid "Purchase Code"
+msgstr ""
+
+#: inc/admin/release-notes.php:75
+msgid "Thanks. Your purchase code has been successfully verified."
+msgstr ""
+
+#: inc/admin/release-notes.php:76
+msgid "Purchase code not found. Make sure you copy and paste correctly."
+msgstr ""
+
+#: inc/admin/release-notes.php:77
+msgid "Purchase code is already in use. Make sure you have not activated on another website."
+msgstr ""
+
+#: inc/admin/release-notes.php:78
+msgid "Sorry. We were unable to verify your purchase code. Contact support."
+msgstr ""
+
+#: inc/admin/release-notes.php:85
+msgid "Site Domain"
+msgstr ""
+
+#: inc/admin/release-notes.php:90
+msgid "This domain is now authorized. If this is not a production website, deactivate the license before migrating to the final domain."
+msgstr ""
+
+#: inc/admin/release-notes.php:101
+#: inc/admin/release-notes.php:103
+msgid "Activate Licence"
+msgstr ""
+
+#: inc/admin/release-notes.php:102
+#: inc/admin/release-notes.php:103
+msgid "Deactivate Licence"
+msgstr ""
+
+#: inc/admin/release-notes.php:105
+msgid "Get Licence"
+msgstr ""
+
+#: inc/admin/release-notes.php:115
+msgid "Version "
+msgstr ""
+
+#: inc/admin/release-notes.php:120
+msgid "New"
+msgstr ""
+
+#: inc/admin/release-notes.php:121
+msgid "Required plugins updated to latest versions."
+msgstr ""
+
+#: inc/admin/release-notes.php:127
+#: inc/utils/import-field-data.php:141
+msgid "Support"
+msgstr ""
+
+#: inc/admin/release-notes.php:132
+msgid "Knowledge base"
+msgstr ""
+
+#: inc/admin/release-notes.php:135
+msgid "Changelog"
+msgstr ""
+
+#: inc/admin/release-notes.php:138
+msgid "View Demos"
+msgstr ""
+
+#: inc/admin/release-notes.php:141
+msgid "More Themes"
+msgstr ""
+
+#: inc/component/breadcrumb.php:98
+#: template-parts/hero.php:113
+msgid "No Title"
+msgstr ""
+
+#. translators: 1: Date, 2: Datetime.
+#: inc/component/comment-callback.php:32
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/component/comment-callback.php:42
+msgid "Reply"
+msgstr ""
+
+#: inc/component/search-form.php:14
+#: template-parts/modal-basic.php:22
+#: template-parts/modal.php:21
+msgid "Enter Keywords"
+msgstr ""
+
+#: inc/config/theme-functions.php:113
+msgid " Comments"
+msgstr ""
+
+#: inc/config/theme-functions.php:116
+msgid "Be the first to comment"
+msgstr ""
+
+#: inc/config/theme-settings.php:11
+#: inc/config/theme-settings.php:12
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/config/theme-settings.php:19
+#: inc/config/theme-settings.php:20
+msgid "Global Style"
+msgstr ""
+
+#: inc/config/theme-settings.php:26
+#: inc/config/theme-settings.php:27
+msgid "Header"
+msgstr ""
+
+#: inc/config/theme-settings.php:33
+#: inc/config/theme-settings.php:34
+msgid "Footer"
+msgstr ""
+
+#: inc/config/theme-settings.php:40
+#: inc/config/theme-settings.php:41
+msgid "Blog"
+msgstr ""
+
+#: inc/config/theme-settings.php:47
+#: inc/config/theme-settings.php:48
+msgid "Single Post"
+msgstr ""
+
+#: inc/config/theme-settings.php:54
+#: inc/config/theme-settings.php:55
+msgid "Portfolio"
+msgstr ""
+
+#: inc/config/theme-settings.php:61
+#: inc/config/theme-settings.php:62
+msgid "Single Portfolio"
+msgstr ""
+
+#: inc/config/theme-settings.php:68
+#: inc/config/theme-settings.php:69
+msgid "Single Page"
+msgstr ""
+
+#: inc/config/theme-settings.php:75
+#: inc/config/theme-settings.php:76
+msgid "Search"
+msgstr ""
+
+#: inc/config/theme-settings.php:82
+#: inc/config/theme-settings.php:83
+msgid "404 Page"
+msgstr ""
+
+#: inc/config/theme-settings.php:89
+#: inc/config/theme-settings.php:90
+msgid "Preloader"
+msgstr ""
+
+#: inc/config/theme-settings.php:96
+#: inc/config/theme-settings.php:97
+msgid "Scroll To Top"
+msgstr ""
+
+#: inc/config/theme-settings.php:103
+#: inc/config/theme-settings.php:104
+msgid "Cookie Notice"
+msgstr ""
+
+#: inc/config/theme-settings.php:110
+#: inc/config/theme-settings.php:111
+msgid "Advanced"
+msgstr ""
+
+#: inc/config/theme-support.php:10
+msgid "Menu 1"
+msgstr ""
+
+#: inc/config/theme-support.php:14
+msgid "Menu 2"
+msgstr ""
+
+#: inc/config/theme-support.php:15
+msgid "Menu 3"
+msgstr ""
+
+#: inc/config/theme-support.php:16
+msgid "Menu 4"
+msgstr ""
+
+#: inc/config/theme-support.php:17
+msgid "Menu 5"
+msgstr ""
+
+#: inc/config/theme-support.php:47
+msgid "Sidebar 1"
+msgstr ""
+
+#: inc/config/theme-support.php:49
+#: inc/config/theme-support.php:63
+#: inc/config/theme-support.php:75
+#: inc/config/theme-support.php:87
+msgid "Add widgets here. You can display this sidebar on the blog, posts, pages, and portfolio."
+msgstr ""
+
+#: inc/config/theme-support.php:61
+msgid "Sidebar 2"
+msgstr ""
+
+#: inc/config/theme-support.php:73
+msgid "Sidebar 3"
+msgstr ""
+
+#: inc/config/theme-support.php:85
+msgid "Sidebar 4"
+msgstr ""
+
+#: inc/config/theme-support.php:97
+msgid "Sidebar 5"
+msgstr ""
+
+#: inc/config/theme-support.php:99
+msgid "Add widgets here. This sidebar is reserved for WooCommerce pages."
+msgstr ""
+
+#: inc/resources/enqueue-assets.php:10
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/utils/import-demo-data.php:68
+msgid "This plugin provides the full functionality of the Nexgen WordPress Theme."
+msgstr ""
+
+#: inc/utils/import-demo-data.php:75
+msgid "Responsible for the entire operation of the theme settings of the theme."
+msgstr ""
+
+#: inc/utils/import-demo-data.php:82
+#: inc/utils/import-demo-data.php:94
+msgid "Adds \"Font Awesome Icon\" to the theme settings of the theme."
+msgstr ""
+
+#: inc/utils/import-demo-data.php:88
+msgid "The best drag and drop page builder for customizing pages."
+msgstr ""
+
+#: inc/utils/import-field-data.php:17
+msgid "Open Hours: Mon - Sat - 9:00 - 18:00"
+msgstr ""
+
+#: inc/utils/import-field-data.php:107
+msgid "CONTACT US"
+msgstr ""
+
+#: inc/utils/import-field-data.php:123
+msgid "Company"
+msgstr ""
+
+#: inc/utils/import-field-data.php:132
+msgid "Services"
+msgstr ""
+
+#: inc/utils/import-field-data.php:160
+msgid "Explore more themes like this on the <a href=\"https://codings.dev\" target=\"_blank\" rel=\"nofollow noopener\">Author Page</a>.."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/utils/tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/utils/tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/utils/tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/utils/tgm-plugin-activation.php:347
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/utils/tgm-plugin-activation.php:353
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/utils/tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/utils/tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/utils/tgm-plugin-activation.php:371
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/utils/tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/utils/tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/utils/tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/utils/tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:393
+#: inc/utils/tgm-plugin-activation.php:912
+#: inc/utils/tgm-plugin-activation.php:2618
+#: inc/utils/tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:394
+#: inc/utils/tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:395
+#: inc/utils/tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/utils/tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/utils/tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/utils/tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:1019
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:1019
+#: inc/utils/tgm-plugin-activation.php:1022
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:1022
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:1206
+#: inc/utils/tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/utils/tgm-plugin-activation.php:2067
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/utils/tgm-plugin-activation.php:2427
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/utils/tgm-plugin-activation.php:2473
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/utils/tgm-plugin-activation.php:2477
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/utils/tgm-plugin-activation.php:2481
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/utils/tgm-plugin-activation.php:2485
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/utils/tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/utils/tgm-plugin-activation.php:2688
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/utils/tgm-plugin-activation.php:2693
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/utils/tgm-plugin-activation.php:2699
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/utils/tgm-plugin-activation.php:3583
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/utils/tgm-plugin-activation.php:3586
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/utils/tgm-plugin-activation.php:3588
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:3592
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/utils/tgm-plugin-activation.php:3594
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/utils/tgm-plugin-activation.php:3594
+#: inc/utils/tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/utils/tgm-plugin-activation.php:3594
+#: inc/utils/tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/utils/tgm-plugin-activation.php:3597
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:3600
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/utils/tgm-plugin-activation.php:3602
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/utils/tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/utils/tgm-plugin-activation.php:3605
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: template-parts/404-basic.php:15
+#: template-parts/404.php:15
+msgid "Nothing found in:"
+msgstr ""
+
+#: template-parts/404-basic.php:17
+#: template-parts/404.php:16
+msgid "The page you tried to access does not exist or has changed address. Try using other search terms."
+msgstr ""
+
+#: template-parts/comments.php:38
+msgid "Comments are closed."
+msgstr ""
+
+#: template-parts/modal-basic.php:17
+#: template-parts/modal.php:12
+msgid "What are you looking for?"
+msgstr ""
+
+#: template-parts/modal-basic.php:27
+#: template-parts/modal.php:30
+msgid "SEARCH"
+msgstr ""
+
+#: template-parts/search-intro-basic.php:12
+#: template-parts/search-intro.php:15
+msgid "All results"
+msgstr ""
+
+#: template-parts/search-intro-basic.php:23
+#: template-parts/search-intro.php:32
+msgid "Search results for:"
+msgstr ""
+
+#: template-parts/search-intro-basic.php:24
+#: template-parts/search-intro.php:33
+msgid "This are the results found for the term you entered. Wasn't that what you were looking for? Try using other search terms."
+msgstr ""
+
+#: template-parts/search-intro-basic.php:27
+#: template-parts/search-intro.php:43
+msgid "No results for:"
+msgstr ""
+
+#: template-parts/search-intro-basic.php:28
+#: template-parts/search-intro.php:44
+msgid "Sorry, no results were found for your search. Try using other search terms."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Nexgen Blog"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Nexgen Full Width"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Nexgen Portfolio"
+msgstr ""

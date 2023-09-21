@@ -1,0 +1,658 @@
+/*----------------------------------------------
+*
+* [ACF Stylesheet]
+*
+* Theme    : Nexgen
+* Version  : 1.0
+* Author   : Codings
+* Support  : codings.dev
+* 
+----------------------------------------------*/
+
+/*----------------------------------------------
+
+[ALL CONTENTS]
+
+1. Root
+2. Load
+3. Field
+4. Button
+5. Image
+6. Icon
+7. Block
+8. Switch
+9. Notice
+10. Tabs
+11. Page Settings
+
+----------------------------------------------*/
+
+/*----------------------------------------------
+1. Root
+----------------------------------------------*/
+
+/* #region Root */
+
+:root {
+  --nxg-primary-color: #0073aa;
+  --white-color: #ffffff;
+  --light-color: #f1f1f1;
+  --medium-color: #ccd0d4;
+  --dark-color: #111117;
+  --success-color: #007a4d;
+  --danger-color: #e34f4f;
+  --warning-color: #ff9800;
+}
+
+/* #endregion Root */
+
+/*----------------------------------------------
+2. Load
+----------------------------------------------*/
+
+/* #region Load */
+
+.acf-settings-wrap.ready {
+  opacity: 1;
+}
+
+/* #endregion Load */
+
+/*----------------------------------------------
+3. Field
+----------------------------------------------*/
+
+/* #region Field */
+
+.acf-field input[type="text"], .acf-field input[type="password"], .acf-field input[type="date"], .acf-field input[type="datetime"], .acf-field input[type="datetime-local"], .acf-field input[type="email"], .acf-field input[type="month"], .acf-field input[type="number"], .acf-field input[type="search"], .acf-field input[type="tel"], .acf-field input[type="time"], .acf-field input[type="url"], .acf-field input[type="week"], .acf-field textarea, .acf-field select {
+  border-color: var(--medium-color);
+  border-radius: 3px;
+  padding: 5px 10px;
+  box-shadow: none!important;
+}
+
+.acf-field p.description {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.acf-fields.-left>.acf-field:before {
+  border: none;
+  background-color: var(--white-color);
+}
+
+.acf-field .acf-label label {
+  font-weight: 500;
+}
+
+.acf-fields>.acf-field {
+  border-top: 0;
+}
+
+.edit-post-layout .acf-fields>.acf-field {
+  padding: 15px;
+  border: none!important;
+}
+
+.acf-fields.-sidebar:before {
+  border: none;
+  background: var(--light-color);
+  z-index: 1;
+}
+
+.acf-settings-wrap input[type=checkbox]:focus, .acf-settings-wrap input[type=color]:focus, .acf-settings-wrap input[type=date]:focus, .acf-settings-wrap input[type=datetime-local]:focus, .acf-settings-wrap input[type=datetime]:focus, .acf-settings-wrap input[type=email]:focus, .acf-settings-wrap input[type=month]:focus, .acf-settings-wrap input[type=number]:focus, .acf-settings-wrap input[type=password]:focus, .acf-settings-wrap input[type=radio]:focus, .acf-settings-wrap input[type=search]:focus, .acf-settings-wrap input[type=tel]:focus, .acf-settings-wrap input[type=text]:focus, .acf-settings-wrap input[type=time]:focus, .acf-settings-wrap input[type=url]:focus, .acf-settings-wrap input[type=week]:focus, .acf-settings-wrap select:focus, .acf-settings-wrap textarea:focus, input[type=search]:focus {
+  border-color: var(--nxg-primary-color)!important;
+  box-shadow: none;
+  outline: none;
+}
+
+.acf-range-wrap input[type="number"] {
+  min-width: 5em;
+  border-color: var(--medium-color);
+}
+
+.acf-range-wrap input[type="range"] {
+  width: 110px;
+}
+
+@media(max-width:1400px) {
+  .acf-range-wrap input[type="range"] {
+    width: 95px;
+  }
+}
+
+.wp-picker-container input[type=text].wp-color-picker {
+  width: 4.5rem;
+  text-align: center;
+  border-radius: 0;
+}
+
+.select2-container.-acf .select2-selection {
+  border-color: var(--medium-color);
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-height: 31px;
+}
+
+.select2-container.-acf .select2-selection:focus {
+  box-shadow: none;
+  outline: none;
+  border-color: var(--nxg-primary-color);
+}
+
+.select2-container.-acf .select2-selection--multiple .select2-selection__choice {
+  padding: 2.5px 5px;
+  margin: 2.5px;
+}
+
+.select2-selection.select2-selection--multiple {
+  padding: 10px 10px 5px;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+  padding-left: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+  font-size: 18px;
+  margin-top: -2px;
+  color: var(--medium-color);
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: var(--nxg-primary-color);
+}
+
+/* #endregion Field */
+
+/*----------------------------------------------
+4. Button
+----------------------------------------------*/
+
+/* #region Button */
+
+.acf-settings-wrap .button-primary {
+  background: var(--nxg-primary-color)!important;
+  border-color: var(--nxg-primary-color)!important;
+  border-radius: 3px!important;
+  padding: 3px 20px!important;
+  margin-right: 0!important;
+}
+
+.wp-core-ui .button-primary.disabled {
+  background: var(--nxg-primary-color)!important;
+  border-color: var(--nxg-primary-color)!important;
+  border-radius: 3px!important;
+  padding: 3px 20px!important;
+  margin-right: 0!important;
+  opacity: 0.6;
+}
+
+button.acf-submit-button.button.button-primary {
+  background: var(--nxg-primary-color)!important;
+  border-color: var(--nxg-primary-color)!important;
+  border-radius: 3px!important;
+  padding: 3px 20px!important;
+  margin-right: 0!important;
+}
+
+.acf-actions .button-primary {
+  background: var(--nxg-primary-color)!important;
+  border-color: var(--nxg-primary-color)!important;
+  border-radius: 3px!important;
+  padding: 3px 20px!important;
+  margin-right: 0!important;
+}
+
+.acf-settings-wrap .wp-core-ui .button, .acf-settings-wrap .wp-core-ui .button-secondary {
+  color: var(--nxg-primary-color);
+  border-color: var(--nxg-primary-color);
+  border-radius: 3px;
+}
+
+.acf-image-uploader .acf-button.button {
+  border-radius: 3px;
+  border-color: var(--nxg-primary-color);
+  color: var(--nxg-primary-color);
+}
+
+.acf-button-group label {
+  border-color: var(--medium-color);
+}
+
+.acf-button-group label:hover {
+  color: var(--nxg-primary-color);
+  background: var(--light-color);
+  border-color: var(--nxg-primary-color);
+  z-index: 2;
+}
+
+.acf-button-group label.selected {
+  background: var(--nxg-primary-color)!important;
+  border-color: var(--nxg-primary-color)!important;
+}
+
+.acf-button-group label.selected:hover {
+  color: var(--white-color)!important;
+}
+
+.wp-picker-container .wp-color-result.button {
+  min-height: 30px;
+  margin: 0 6px 6px 0;
+  padding: 0 1px 0 30px;
+  font-size: 11px;
+  border-radius: 0;
+  background-color: var(--medium-color);
+}
+
+.wp-core-ui .button-secondary:focus, .wp-core-ui .button.focus, .wp-core-ui .button:focus {
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+.wp-picker-input-wrap .button.button-small {
+  padding: 2px 15px;
+  margin: 0 5px;
+  border-radius: 0;
+}
+
+/* #endregion Button */
+
+/*----------------------------------------------
+5. Image
+----------------------------------------------*/
+
+/* #region Image */
+
+.acf-file-uploader .file-icon {
+  width: 30px;
+}
+
+.acf-file-uploader .file-icon img {
+  max-width: 30px;
+}
+
+.acf-file-uploader .file-info {
+  margin-left: 51px;
+}
+
+.acf-file-uploader p {
+  font-size: 0;
+}
+
+.acf-image-uploader .image-wrap img {
+  border: 1px solid var(--medium-color);
+  border-radius: 3px;
+}
+
+.acf-image-uploader p {
+  font-size: 0;
+}
+
+/* #endregion Image */
+
+/*----------------------------------------------
+6. Icon
+----------------------------------------------*/
+
+/* #region Icon */
+
+.nexgen-icon-item[role=treeitem] {
+  outline: 0;
+  margin: 5px 5px 0px;
+  padding: 7.5px 10px!important;
+  display: flex;
+  align-items: center;
+}
+
+.nexgen-icon-item[role=treeitem]:last-child {
+  margin-bottom: 5px;
+}
+
+.nexgen-icon-item[role=treeitem] i {
+  font-size: 16px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
+
+a.acf-icon.dark {
+  background: var(--dark-color);
+}
+
+a.acf-icon.dark:hover {
+  background: var(--nxg-primary-color);
+  color: var(--white-color)!important;
+}
+
+.acf-icon.light {
+  background: var(--light-color);
+}
+
+a.acf-icon:hover,
+a.acf-icon.-collapse.small:hover {
+  color: var(--white-color);
+  border-color: var(--nxg-primary-color);
+  background: var(--nxg-primary-color);
+}
+
+a.acf-icon.-collapse.small {
+  line-height: 0;
+  font-size: 20px;
+  background: var(--light-color);
+}
+
+a.acf-icon.-minus:hover, a.acf-icon.-cancel:hover {
+  color: var(--white-color);
+  border-color: var(--danger-color);
+  background-color: var(--danger-color);
+}
+
+a.acf-icon.-collapse.small {
+  top: -2px;
+}
+
+/* #endregion Icon */
+
+/*----------------------------------------------
+7. Block
+----------------------------------------------*/
+
+/* #region Block */
+
+.acf-link .link-wrap {
+  width: calc( 100% - 10px);
+}
+
+.acf-settings-wrap .mce-top-part::before {
+  box-shadow: none;
+}
+
+.acf-settings-wrap  #major-publishing-actions {
+  clear: both;
+  border-top: none;
+  background: var(--white-color);
+}
+
+.acf-postbox .hndle.ui-sortable-handle {
+  border: none;
+}
+
+.acf-repeater > .acf-table {
+  min-height: 160px;
+}
+
+.acf-table>thead>tr>th,
+.acf-table>tbody>tr>td {
+  border-color: var(--medium-color);
+}
+
+.acf-table td.acf-fields.-sidebar {
+  padding-top: 5px!important;
+  padding-bottom: 5px!important;
+}
+
+.acf-table th label {
+  font-weight: 500;
+}
+
+.acf-flexible-content .layout .acf-fc-layout-order {
+  background: var(--light-color);
+}
+
+.acf-repeater .acf-row-handle.order {
+  background: var(--light-color)!important;
+}
+
+.edit-post-layout .acf-postbox.closed {
+  background-color: var(--white-color);
+}
+
+#editor .postbox.closed:last-child>.postbox-header {
+  border-bottom: 1px solid var(--light-color);
+}
+
+#editor .postbox>.postbox-header .hndle {
+  font-size: 13px;
+}
+
+.edit-post-layout .acf-postbox>.hndle .acf-hndle-cog {
+  display: none;
+}
+
+.acf-postbox>.hndle:hover .acf-hndle-cog, .acf-postbox>.postbox-header:hover .acf-hndle-cog {
+  display: none;
+}
+
+.acf-color-picker .wp-color-result,
+.wp-color-result-text {
+  border: none!important;
+}
+
+.iris-picker .iris-square {
+  margin-right: 8%;
+}
+
+.acf-fc-popup a {
+  font-size: 14px;
+  padding: 5px 14px;
+}
+
+.acf-fc-popup a:hover {
+  background: var(--nxg-primary-color);
+  color: var(--white-color);
+}
+
+/* #endregion Block */
+
+/*----------------------------------------------
+8. Switch
+----------------------------------------------*/
+
+/* #region Switch */
+
+.acf-switch {
+  border-radius: 100px;
+  padding: 0 5px;
+  border-color: var(--medium-color);
+}
+
+.acf-switch .acf-switch-slider {
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  border-radius: 0;
+  border-color: var(--medium-color);
+  border-radius: 15px;
+  background-color: var(--light-color);
+}
+
+.acf-switch:hover, .acf-switch.-focus {
+  border-color: var(--nxg-primary-color);
+  background: var(--nxg-primary-color);
+  color: var(--white-color);
+}
+
+.acf-switch .acf-switch-on {
+  color: var(--white-color);
+}
+
+.acf-switch.-on {
+  background: var(--nxg-primary-color);
+  border-color: var(--nxg-primary-color);
+}
+
+.acf-switch.-on .acf-switch-slider {
+  left: 50%;
+  right: 4px;
+  border-color: var(--nxg-primary-color);
+  border-radius: 15px;
+  background-color: var(--light-color);
+}
+
+/* #endregion Switch */
+
+/*----------------------------------------------
+9. Notice
+----------------------------------------------*/
+
+/* #region Notice */
+
+.nexgen-message .acf-label {
+  display: none;
+}
+
+.nexgen-message .acf-notice {
+  margin: 0;
+  color: var(--nxg-primary-color);
+  background: var(--light-color);
+}
+
+.nexgen-message-full .acf-label,
+.nexgen-message-full label:first-child,
+.nexgen-message label:first-child {
+  display: none;
+}
+
+.nexgen-message-full {
+  width: 100%;
+}
+
+.nexgen-message-full:before {
+  content: none!important;
+}
+
+.nexgen-message-full .acf-notice {
+  color: var(--nxg-primary-color);
+  margin-bottom: 0;
+}
+
+.nexgen-message-full .acf-input {
+  width: 100%!important;
+}
+
+.nexgen-message-page-settings:before {
+  content: none!important;
+  display: none!important;
+}
+
+.nexgen-message-page-settings .acf-label {
+  display: none!important;
+}
+
+.nexgen-message-page-settings .acf-notice {
+  color: var(--nxg-primary-color);
+  margin: 0!important;
+}
+
+.nexgen-message-page-settings .acf-input {
+  width: 100%!important;
+  padding: 0!important;
+}
+
+.acf-notice {
+  margin: 10px 0 5px;
+}
+
+.block-editor-page .components-notice-list {
+  background: var(--white-color);
+}
+
+.block-editor-page .components-notice {
+  color: var(--danger-color);
+  height: 60px;
+  min-height: auto;
+  margin: 15px 15px;
+  border-bottom: none;
+}
+
+/* #endregion Notice */
+
+/*----------------------------------------------
+10. Tabs
+----------------------------------------------*/
+
+/* #region Tabs */
+
+.acf-fields>.acf-tab-wrap .acf-tab-group li a {
+  border-radius: 3px 3px 0 0;
+}
+
+/* #endregion Tabs */
+
+/*----------------------------------------------
+11. Page Settings
+----------------------------------------------*/
+
+/* #region Page Settings */
+
+[data-name="nxg_page_settings_disable_hero_section"],
+[data-name="nxg_page_settings_disable_breadcrumb"],
+[data-name="nxg_page_settings_disable_metadata"],
+[data-name="nxg_page_settings_disable_sidebar"],
+[data-name="nxg_page_settings_disable_container"] {
+  display: flex;
+  align-items: normal;
+  justify-content: start;
+}
+
+[data-name="nxg_page_settings_disable_hero_section"] .acf-input,
+[data-name="nxg_page_settings_disable_breadcrumb"] .acf-input,
+[data-name="nxg_page_settings_disable_metadata"] .acf-input,
+[data-name="nxg_page_settings_disable_sidebar"] .acf-input,
+[data-name="nxg_page_settings_disable_container"] .acf-input {
+  order: -1;
+}
+
+[data-name="nxg_page_settings_disable_hero_section"] .acf-input input[type=checkbox],
+[data-name="nxg_page_settings_disable_breadcrumb"] .acf-input input[type=checkbox],
+[data-name="nxg_page_settings_disable_metadata"] .acf-input input[type=checkbox],
+[data-name="nxg_page_settings_disable_sidebar"] .acf-input input[type=checkbox],
+[data-name="nxg_page_settings_disable_container"] .acf-input input[type=checkbox] {
+  padding: 6px 8px;
+  box-shadow: 0 0 0 transparent;
+  transition: box-shadow .1s linear;
+  font-size: 16px;
+  line-height: normal;
+  border: 1px solid #1e1e1e;
+  transition: none;
+  border-radius: 2px;
+  background: #fff;
+  color: #1e1e1e;
+  clear: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 0;
+  margin: 0 5px 0 0;
+  outline: 0;
+  padding: 0!important;
+  text-align: center;
+  vertical-align: top;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: border-color .1s ease-in-out;
+}
+
+[data-name="nxg_page_design_featured_video"] .acf-button {
+  border-radius: 2px;
+  background-color: #f0f0f0;
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+  padding: 8px 0;
+  text-align: center;
+  border: none;
+  color: #1e1e1e;
+}
+
+[data-name="nxg_page_design_featured_video"] .acf-button:hover {
+  background-color: #ddd;
+  color: #1e1e1e;
+}
+
+/* #endregion Page Settings */

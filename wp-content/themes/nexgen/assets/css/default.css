@@ -1,0 +1,264 @@
+/*----------------------------------------------
+*
+* [Default Stylesheet]
+*
+* Theme    : Nexgen
+* Version  : 1.0
+* Author   : Codings
+* Support  : codings.dev
+* 
+----------------------------------------------*/
+
+/*----------------------------------------------
+
+[ALL CONTENTS]
+
+1. Root
+2. Button
+3. Effect
+
+----------------------------------------------*/
+
+/*----------------------------------------------
+1. Root
+----------------------------------------------*/
+
+/* #region Root */
+
+:root {
+    --nxg-primary-color: #058283;
+    --nxg-secondary-color: #00a6a6;
+    --nxg-tertiary-color: #21333e;
+    --nxg-quaternary-color: #21333ef7;
+    
+    --white-bg-color: #ffffff;
+    --light-bg-color: #f1f1f1;
+    --dark-bg-color: #111117;
+
+    --white-text-color: #ffffff;
+    --light-text-color: #8f93a5;
+    --dark-text-color: #606d75;
+
+    --success-color: #007a4d;
+    --warning-color: #ff9800;
+    --danger-color: #e34f4f;
+
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+}
+
+/* #endregion Root */
+
+/*----------------------------------------------
+2. Button
+----------------------------------------------*/
+
+/* #region Button */
+
+.buttons {
+    position: relative;
+    z-index: 2;
+}
+
+.button, .button:visited, .button:active,
+input[type="submit"], input[type="submit"]:visited, input[type="submit"]:active {
+    width: fit-content;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    padding: 10px 25px;
+    border-radius: 100px;
+    border: 2px solid;
+    border-color: var(--nxg-primary-color);
+    background-color: transparent;
+    color: var(--nxg-primary-color);
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    line-height: 1.2;
+    height: fit-content;
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
+
+.button:hover, .button:focus {
+    border-color: var(--nxg-secondary-color);
+    color: var(--white-text-color);
+}
+
+.primary-button, .primary-button:visited, .primary-button:active,
+input[type="submit"]:visited, input[type="submit"]:active {
+    position: relative;
+    z-index: 2;
+    padding: 10px 25px;
+    background-color: var(--nxg-primary-color);
+    border-radius: 100px;
+    border: 2px solid;
+    border-color: var(--nxg-primary-color);
+    color: var(--white-text-color);
+    font-weight: 500;
+    line-height: 1.2;
+    height: fit-content;
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
+
+.primary-button:hover, .primary-button:focus,
+input[type="submit"]:hover, input[type="submit"]:focus {
+    background-color: var(--nxg-secondary-color);
+    border-color: var(--nxg-secondary-color);
+    color: var(--white-text-color);
+}
+
+.primary-button:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    z-index: 0;
+    width: 0;
+    height: 0;
+    border-radius: 100px 0 0 100px;
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-transition: all .2s ease-out 0s;
+    -o-transition: all .2s ease-out 0s;
+    -moz-transition: all .2s ease-out 0s;
+    transition: all .2s ease-out 0s;
+}
+
+.primary-button:after {
+    content: '';
+    position: absolute;
+    right: 50%;
+    z-index: 0;
+    width: 0;
+    height: 0;
+    border-radius: 0 100px 100px 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-transition: all .2s ease-out 0s;
+    -o-transition: all .2s ease-out 0s;
+    -moz-transition: all .2s ease-out 0s;
+    transition: all .2s ease-out 0s;
+}
+
+.primary-button:hover:before {
+    width: calc(50% - 5px);
+    height: 100%;
+    left: 5px;
+}
+
+.primary-button:hover:after {
+    width: calc(50% - 5px);
+    height: 100%;
+    right: 5px;
+}
+
+.secondary-button, .secondary-button:visited, .secondary-button:active {
+    position: relative;
+    z-index: 2;
+    padding: 10px 25px;
+    background-color: transparent !important;
+    /* ! important is necessary to avoid conflict with the Theme Settings. */
+    border-radius: 100px;
+    border: 2px solid;
+    border-color: var(--nxg-primary-color);
+    color: var(--white-text-color);
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    line-height: 1.2;
+    height: fit-content;
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
+
+.secondary-button:hover, .secondary-button:focus {
+    border-color: var(--nxg-secondary-color);
+    background-color: transparent !important;
+    /* ! important is necessary to avoid conflict with the Theme Settings. */
+    color: var(--white-text-color);
+}
+
+.secondary-button:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    z-index: 0;
+    width: 0;
+    height: 0;
+    border-radius: 100px 0 0 100px;
+    background-color: rgba(0, 0, 0, 0.15);
+    -webkit-transition: all .2s ease-out 0s;
+    -o-transition: all .2s ease-out 0s;
+    -moz-transition: all .2s ease-out 0s;
+    transition: all .2s ease-out 0s;
+}
+
+.secondary-button:after {
+    content: '';
+    position: absolute;
+    right: 50%;
+    z-index: 0;
+    width: 0;
+    height: 0;
+    border-radius: 0 100px 100px 0;
+    background-color: rgba(0, 0, 0, 0.15);
+    -webkit-transition: all .2s ease-out 0s;
+    -o-transition: all .2s ease-out 0s;
+    -moz-transition: all .2s ease-out 0s;
+    transition: all .2s ease-out 0s;
+}
+
+.secondary-button:hover:before {
+    width: 50%;
+    height: 100%;
+    left: 0;
+}
+
+.secondary-button:hover:after {
+    width: 50%;
+    height: 100%;
+    right: 0;
+}
+
+/* #endregion Button */
+
+/* #region Effect */
+
+@-webkit-keyframes pulse-icon {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 var(--pulse-color);
+        background-color: var(--pulse-color);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        background-color: rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        background-color: rgba(204,169,44, 0);
+    }
+}
+  
+@keyframes pulse-icon {
+    0% {
+        -moz-box-shadow: 0 0 0 0 var(--pulse-color);
+        box-shadow: 0 0 0 0 var(--pulse-color);
+        background-color: var(--pulse-color);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        background-color: rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        background-color: rgba(204,169,44, 0);
+    }
+}
+
+/* #endregion Effect */
